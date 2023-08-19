@@ -20,6 +20,7 @@ Recuerda que la clave para un buen trabajo en equipo es la comunicación. Si tie
 - 🖱️: Lucas Salinas
 - 🖱️: Jeremias Riquero
 - 🖱️: ezequiel Mariscal 'El turista'
+- 🖱️: Franco "Chorifran" Lara
  
 # Calendario de Scrum
 
