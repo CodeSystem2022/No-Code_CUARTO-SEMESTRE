@@ -2,6 +2,7 @@ Este es un leeme del proyecto integrador del cuarto semestre de la Tecnicatura U
 
 ***E-comerce***
 
-** Brief del e-comerce: ** 
+** Brief del e-comerce: ** <br><br><br>
+** Tienda de artículos geeks**
 
-<img src='https://i.postimg.cc/25jnV0Kj/76bb0956-0da1-465c-9aa1-c29dfee808c4.jpg' border='10' align="center" style="width: 40%" alt='tienda geek'/>
+<img src='https://i.postimg.cc/25jnV0Kj/76bb0956-0da1-465c-9aa1-c29dfee808c4.jpg' border='0'  align="center" style="width: 100%" alt='tienda geek'/>
