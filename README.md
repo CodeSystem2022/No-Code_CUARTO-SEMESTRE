@@ -24,6 +24,7 @@ Recuerda que la clave para un buen trabajo en equipo es la comunicación. Si tie
 # Calendario de Scrum
 
 - Semana del 17 al 24 de Agosto: Dante N Martinez (Actual)
+    Resultados del scrum: Dario, Abel y Jeremias (Descanso 1 semana)
 - Semana del 25 de Agosto al 31 de Agosto: Jeremias Riquero
 - Semana del 1 de Septiembre al 7 de Septiembre: Dario Carrizo
 - Semana del 8 de Septiembre al 14 de Septiembre: Abel Pierna
