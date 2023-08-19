@@ -18,7 +18,7 @@ Recuerda que la clave para un buen trabajo en equipo es la comunicación. Si tie
 - 🖱️: Andrés Armando Winckler
 - 🖱️: Abel Pierna
 - 🖱️: Lucas Salinas
-- 🖱️: ...
+- 🖱️: Jeremias Riquero
 - 🖱️: ...
  
 # Calendario de Scrum
