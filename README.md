@@ -10,18 +10,18 @@ Es un placer tenerte aquí mientras continuamos nuestro viaje en este cuarto sem
 Recuerda que la clave para un buen trabajo en equipo es la comunicación. Si tienes ideas, preguntas o sugerencias, no dudes en compartirlas. Estamos aquí para aprender juntos y ayudarnos mutuamente a tener éxito en nuestros estudios.
 
 **¡Que sea un semestre lleno de aprendizaje y logros!** :rocket: :mortar_board:
-
+***
 ### INTEGRANTES:
-
+---
 - 🖱️: Dante "El Nico" Martinez
 - 🖱️: Dario Walter Carrizo
-- 🖱️: **Andrés Armando Winckler -><kbd> [Mi Repositorio de Github](https://github.com/andreswinck)</kbd> <kbd>[Mi Linkedin](https://www.linkedin.com/in/andreswinckler/)</kbd>
+- 🖱️: **_Andrés A. Winckler_**  <kbd> <br> [Mi Repositorio de Github](https://github.com/andreswinck) <br> <br> </kbd>  <kbd> <br> [Mi Linkedin](https://www.linkedin.com/in/andreswinckler/) <br> <br> </kbd>
 - 🖱️: Abel Pierna
 - 🖱️: Lucas Salinas
 - 🖱️: Jeremias Riquero
 - 🖱️: ezequiel Mariscal 'El turista'
 - 🖱️: Franco "Chorifran" Lara
- 
+***
 # Scrum Master Obligaciones:
 - Generar el proyecto
 - Crear tag
@@ -35,15 +35,16 @@ Recuerda que la clave para un buen trabajo en equipo es la comunicación. Si tie
 - Se serciora que el codigo entregado por los participantes este en perfecto estado y funcionen debe dar devolución de lo recibido.
 - Puede Crear Ramas
 - Hacer release al finalizar el proyecto
-
+***
 # Obligaciones de los miembros
+
 - PRIMER: LEER BIEN!
 - SEGUNDO: INTERPRETAR!
 - TERCERO: SI NO ENTIENDO PREGUNTO!
 - Hacer caso a las tareas moverlas y responder e interactuar con los integrantes y el scrum master
 - Cada cambio en el repositorio Informar al grupo por Whatsapp !!
 - Recordar que hay wiki para rellenar y foro de discución
-
+***
 # Calendario de Scrum
 
 - Semana del 17 al 24 de Agosto: Dante N Martinez (Actual)
