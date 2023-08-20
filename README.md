@@ -23,7 +23,7 @@ Recuerda que la clave para un buen trabajo en equipo es la comunicación. Si tie
 - 🖱️: Franco "Chorifran" Lara
   <br>
   <br>
- <table><tr><td>Proyectos activos</td></tr></table>
+ <table><tr><td>Listado de Proyectos Activos</td></tr></table>
  
 [<kbd> <br> Ver proyecto semana 17/08 al 24/08 <br> <br> </kbd>](https://github.com/orgs/CodeSystem2022/projects/1199/)
  
