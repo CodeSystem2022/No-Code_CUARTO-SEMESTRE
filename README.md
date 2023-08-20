@@ -15,7 +15,7 @@ Recuerda que la clave para un buen trabajo en equipo es la comunicación. Si tie
 
 - 🖱️: Dante "El Nico" Martinez
 - 🖱️: Dario Walter Carrizo
-- 🖱️: Andrés Armando Winckler
+- 🖱️: **Andrés Armando Winckler -><kbd> [Mi Repositorio de Github](https://github.com/andreswinck)</kbd> <kbd>[Mi Linkedin](https://www.linkedin.com/in/andreswinckler/)</kbd>
 - 🖱️: Abel Pierna
 - 🖱️: Lucas Salinas
 - 🖱️: Jeremias Riquero
