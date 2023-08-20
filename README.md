@@ -21,6 +21,10 @@ Recuerda que la clave para un buen trabajo en equipo es la comunicación. Si tie
 - 🖱️: Jeremias Riquero
 - 🖱️: ezequiel Mariscal 'El turista'
 - 🖱️: Franco "Chorifran" Lara
+  <br>
+  <br>
+
+  <kbd>[link al proyecto semana 1]()</kbd>
 ***
 # Scrum Master Obligaciones:
 - Generar el proyecto
