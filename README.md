@@ -23,9 +23,10 @@ Recuerda que la clave para un buen trabajo en equipo es la comunicación. Si tie
 - 🖱️: Franco "Chorifran" Lara
   <br>
   <br>
-
-  <kbd>[link al proyecto semana 1]()</kbd>
-***
+ <table><tr><td>Proyectos activos</td></tr></table>
+ 
+[<kbd> <br> Ver proyecto semana 17/08 al 24/08 <br> <br> </kbd>](https://github.com/orgs/CodeSystem2022/projects/1199/)
+ 
 # Scrum Master Obligaciones:
 - Generar el proyecto
 - Crear tag
