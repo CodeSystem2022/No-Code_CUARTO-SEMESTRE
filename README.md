@@ -22,6 +22,28 @@ Recuerda que la clave para un buen trabajo en equipo es la comunicación. Si tie
 - 🖱️: ezequiel Mariscal 'El turista'
 - 🖱️: Franco "Chorifran" Lara
  
+# Scrum Master Obligaciones:
+- Generar el proyecto
+- Crear tag
+- Asigna Tareas Grupales o individuales
+- Asignar Labels o crear propios 
+- Crear Issues
+- Crear Milestone de duración del scrum
+- Asignar las milestones a las tareas asignadas
+- Agregar en la wiki de que se trata las clases semanales que se agregan al scrum !! 
+- Se encarga de la supervisión del scrum permanente es como estar de guardia al tanto de los compañeros todo el  tiempo 
+- Se serciora que el codigo entregado por los participantes este en perfecto estado y funcionen debe dar devolución de lo recibido.
+- Puede Crear Ramas
+- Hacer release al finalizar el proyecto
+
+# Obligaciones de los miembros
+- PRIMER: LEER BIEN!
+- SEGUNDO: INTERPRETAR!
+- TERCERO: SI NO ENTIENDO PREGUNTO!
+- Hacer caso a las tareas moverlas y responder e interactuar con los integrantes y el scrum master
+- Cada cambio en el repositorio Informar al grupo por Whatsapp !!
+- Recordar que hay wiki para rellenar y foro de discución
+
 # Calendario de Scrum
 
 - Semana del 17 al 24 de Agosto: Dante N Martinez (Actual)
