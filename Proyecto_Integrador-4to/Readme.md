@@ -5,4 +5,4 @@ Este es un leeme del proyecto integrador del cuarto semestre de la Tecnicatura U
 ** Brief del e-comerce: ** <br><br><br>
 ** Tienda de artículos geeks**
 
-<img src='https://i.postimg.cc/25jnV0Kj/76bb0956-0da1-465c-9aa1-c29dfee808c4.jpg' border='0'  align="center" style="width: 100%" alt='tienda geek'/>
+<img src='https://github.com/CodeSystem2022/No-Code_CUARTO-SEMESTRE/blob/main/Proyecto_Integrador-4to/logo%20tienda%20tierra%20media/logo-tierra-media.png' border='0'  align="center" style="width: 100%" alt='tienda geek'/>
