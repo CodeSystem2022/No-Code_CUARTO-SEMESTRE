@@ -21,13 +21,13 @@ public class EstudianteDAO {
 
         //obj de conexion
         Connection con = getConnection();
-        String sql = "SELECT * FROM estudiantes2022 ORDER BY idestudiantes2022";
+        String sql = "SELECT * FROM estudiantes2022 ORDER BY idestudiantes";
         try{
             ps = con.prepareStatement(sql);
             rs = ps.executeQuery();
             while(rs.next()) {
                 var estudiante = new Estudiante();
-                estudiante.setIdEstudiante(rs.getInt("idestudiantes2022"));
+                estudiante.setIdEstudiante(rs.getInt("idestudiantes"));
                 estudiante.setNombre(rs.getString("nombre"));
                 estudiante.setApellido(rs.getString("apellido"));
                 estudiante.setTelefono(rs.getString("telefono"));
@@ -52,7 +52,7 @@ public class EstudianteDAO {
         PreparedStatement ps;
         ResultSet rs;
         Connection con = getConnection();
-        String sql = "SELECT * FROM estudiantes2022 WHERE idestudiantes2022=?";
+        String sql = "SELECT * FROM estudiantes2022 WHERE idestudiantes=?";
         try {
             ps = con.prepareStatement(sql);
             ps.setInt(1, estudiante.getIdEstudiante());
@@ -107,7 +107,7 @@ public class EstudianteDAO {
     public boolean modificarEstudiante(Estudiante estudiante){
         PreparedStatement ps;
         Connection con = getConnection();
-        String sql = "UPDATE estudiantes2022 SET nombre=?, apellido=?, telefono=?,email=? WHERE idestudiantes2022=?";
+        String sql = "UPDATE estudiantes2022 SET nombre=?, apellido=?, telefono=?,email=? WHERE idestudiantes=?";
         try{
             ps = con.prepareStatement(sql);
             ps.setString(2,estudiante.getNombre());
@@ -133,7 +133,7 @@ public class EstudianteDAO {
     public boolean eliminarEstudiante(Estudiante estudiante){
         PreparedStatement ps;
         Connection con = getConnection();
-        String sql = "DELETE FROM estudiantes2022 WHERE idestudiantes2022=?";
+        String sql = "DELETE FROM estudiantes2022 WHERE idestudiantes=?";
         try {
             ps = con.prepareStatement(sql);
             ps.setInt(1, estudiante.getIdEstudiante());
