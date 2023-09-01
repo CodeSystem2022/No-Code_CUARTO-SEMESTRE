@@ -1,16 +1,30 @@
-const productos = [
+const products = [
     {
         id: 1,
-        pruductName: "Banana",
+        productName: "Banana",
         price: 480,
         quanty: 1,
-        img: "/cliente/media/banana.jpg",
+        img: "/ecomerce/cliente/media/banana.jpg",
     },
     {
         id: 2,
-        pruductName: "Banana",
-        price: 480,
+        productName: "Frutilla",
+        price: 690,
         quanty: 1,
-        img: "/cliente/media/frutilla.jpg",
+        img: "/ecomerce/cliente/media/frutilla.jpg",
     },
-]
+    {
+        id: 3,
+        productName: "Kiwi",
+        price: 560,
+        quanty: 1,
+        img: "/ecomerce/cliente/media/kiwi.jpg", 
+    },
+    {
+        id: 4,
+        productName: "Limon",
+        price: 320,
+        quanty: 1,
+        img: "/ecomerce/cliente/media/limon.jpg",
+    },
+];
