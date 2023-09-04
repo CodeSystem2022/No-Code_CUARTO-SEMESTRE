@@ -24,7 +24,7 @@
 .logo {
   width: 10rem;
   height: 7rem;
-  background: url(./imagenes/logo-tienda-tierra-media/logo-tierra-media.png)
+  background: url(./multimedia/logo-tienda-tierra-media/logo-tierra-media.png)
     center/100% no-repeat;
   margin-left: 1rem;
   user-select: none;
@@ -104,7 +104,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: url(./imagenes/fondos/fondo.jpeg) center/ 100% no-repeat fixed;
+  background: url(./multimedia/fondos/fondo.jpeg) center/ 100% no-repeat fixed;
 }
 
 .filtro_fondo {
@@ -168,37 +168,37 @@ h3 {
 }
 
 .cate_tazas {
-  background: url(./imagenes/menu-categorias/tazas.png) center/ 100% no-repeat;
+  background: url(./multimedia/menu-categorias/tazas.png) center/ 100% no-repeat;
 }
 
 .cate_remeras {
-  background: url(./imagenes/menu-categorias/remeras.png) center/ 100% no-repeat;
+  background: url(./multimedia/menu-categorias/remeras.png) center/ 100% no-repeat;
 }
 
 .cate_accesorios {
-  background: url(./imagenes/menu-categorias/Accesorios.png) center/ 100%
+  background: url(./multimedia/menu-categorias/Accesorios.png) center/ 100%
     no-repeat;
 }
 
 .cate_comics {
-  background: url(./imagenes/menu-categorias/comics.png) center/ 100% no-repeat;
+  background: url(./multimedia/menu-categorias/comics.png) center/ 100% no-repeat;
 }
 
 .cate_figuras {
-  background: url(./imagenes/menu-categorias/figuras.png) center/ 100% no-repeat;
+  background: url(./multimedia/menu-categorias/figuras.png) center/ 100% no-repeat;
 }
 
 .cate_mangas {
-  background: url(./imagenes/menu-categorias/mangas.png) center/ 100% no-repeat;
+  background: url(./multimedia/menu-categorias/mangas.png) center/ 100% no-repeat;
 }
 
 .cate_simpson_mania {
-  background: url(./imagenes/menu-categorias/simpsonMania.png) center/ 100%
+  background: url(./multimedia/menu-categorias/simpsonMania.png) center/ 100%
     no-repeat;
 }
 
 .cate_no_def {
-  background: url(./imagenes/menu-categorias/noDefinido.png) center/ 100%
+  background: url(./multimedia/menu-categorias/noDefinido.png) center/ 100%
     no-repeat;
 }
 
