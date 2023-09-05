@@ -1,5 +1,5 @@
-const modalContainer = document.querySelector('modal-container');
-const modalOverlay = document.querySelector('modal-overlay');
+const modalContainer = document.querySelector('.modal-container');
+const modalOverlay = document.querySelector('.modal-overlay');
 
 const cartBtn = document.getElementById('cart-btn');
 
