@@ -21,7 +21,8 @@ products.forEach((product) => {
             id: product.id,
             productName: product.productName,
             price: product.price,
-            img: product.img
+            quanty: product.quanty,
+            img: product.img,
         })
         console.log(cart);
         })
