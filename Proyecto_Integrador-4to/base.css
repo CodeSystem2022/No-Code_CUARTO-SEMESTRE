@@ -40,7 +40,7 @@ header {
 .main {
   margin-top: 9rem;
   transition: margin .3s;
-
+  background: url(./multimedia/fondos/fondo.jpeg) center/ 100% no-repeat fixed;
 }
 /*Diseño Header*/
 .header {
@@ -65,12 +65,14 @@ header {
   box-shadow: #000 2px 2px 6px;
   z-index: 15;
 }
-
+.titulo{
+  color: rgb(210, 179, 54);
+  margin-right: 6.7rem;
+}
 .logo {
   width: 10rem;
   height: 7rem;
   background: url(./multimedia/logo-tienda-tierra-media/logo-tierra-media.png) center/100% no-repeat;
-  margin-left: 1rem;
   user-select: none;
 }
 
@@ -79,7 +81,7 @@ header {
 }
 
 .burger_carrito {
-  width: 5rem;
+  width: auto;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -94,7 +96,6 @@ header {
   border-radius: 100%;
   background: rgb(161, 136, 38);
   box-shadow: #332917 2px 2px 6px;
-  margin-right: 1rem;
   cursor: pointer;
 }
 
