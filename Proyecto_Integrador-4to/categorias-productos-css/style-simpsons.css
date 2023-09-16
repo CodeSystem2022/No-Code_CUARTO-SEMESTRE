@@ -16,7 +16,7 @@
   height: 7rem;
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: left;
   background-color: #161616;
   box-shadow: #000 2px 2px 6px;
   z-index: 15;
