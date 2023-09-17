@@ -10,6 +10,10 @@
   transition: height 0.3s;
   box-shadow: #000 3px 3px 6px;
 }
+.contenedor-producto:hover{
+  heigth: 390px;
+  background-color: rgb(255, 102, 0);
+}
 
 .cont_header {
   width: 100%;
