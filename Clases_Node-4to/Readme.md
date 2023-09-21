@@ -20,3 +20,10 @@ Event loop:
   Es un bucle que esta constantemente ejecutandose automaticamente para que lo que le mandemos a ese bucle funcione de forma asincrona. 
 Los eventos llegan desde la cola de eventos (Event Queue) el cual tiene todo lo que se ejecuta en el codigo para despues ir a la cola de eventos (Event Loop)
 y ser procesados, si el evento es resuelto rapidamente, este se va thread pool, caso contrario seguira en el Event Loop para ser gestionado de forma asincrona.
+
+Clase 05 de NodeJs 20/09:
+
+Funcionamiento de Node Js:
+_ Node tiene un bucle de eventos diferente al de los otros lenguajes, puede llegar a ser muy complejo. Dejo un link sobre el tema:
+https://codigoencasa.com/bucle-de-eventos-en-nodejs-con-qwik/
+_ Para dar una sencilla explicación y un ejemplo práctico del bucle de eventos en Node Js y en JavaScript, creamos el archivo "monohilo.js" y mostramos sus propiedades. Al ejecutar veremos que antes de hacer uso de la función, Se leen otras líneas de código que se priorizan por delante de la función.
