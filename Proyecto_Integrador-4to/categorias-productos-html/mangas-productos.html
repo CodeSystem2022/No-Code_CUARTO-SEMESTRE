@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mangas Productos</title>
-    <link rel="stylesheet" href="../style.css">
+    
     <!-- Link para conectar con bootstrap icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../base.css">
@@ -13,19 +14,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="cont_body">
         <!-- Comienza el header -->
         <header class="header">
             <!-- Contenedor del logo y el carrito -->
             <div class="cont_header">
-                <a href="../index.html" class="logo"></a>
-    
-  <h2 class="titulo">Colección Mangas</h2>
-    <div class="burger_carrito">
-        <div class="btn_header carrito"><i class="bi bi-cart3"></i></div>
-    </div>
-</div>
+                <a class="logo" href="../index.html" ></a>
+                
+                <h2 class="titulo">Colección Mangas</h2>
+                <div class="burger_carrito">
+                    <div class="btn_header carrito"><i class="bi bi-cart3"></i></div>
+                </div>
+            </div>
 
             <!-- Nav con su lista de navegación -->
             <nav class="nav">
@@ -41,55 +43,131 @@
         <main class="main">
             <div class="filtro_fondo"></div>
             <!-- Cajas con las opciones de los productos -->
-            <div class="categorias">
-                <div class="contenedor-mangas">
+            <div class="productos">
+                <div class="contenedor-producto">
+                    <div class="div-imagen-producto">
+                       <img src="../multimedia/categoria-mangas/producto-manga-1-OnePiece_Vol1.jpg" 
+                            alt="producto-manga-1-OnePiece_Vol1"  
+                            class="img-producto">
+                    </div>
+                    <div class="div-nombre-precio">
+                        <h2 class="div-nombre">One Piece Vol 1 </h2>
+                        <p class="div-precio">$3200</p>
+                        <button class="btn-agregar-carrito" id="categoria-mangas-producto-1">Agregar al Carrito</button>
+                    </div>
+                </div>
+
+                <div class="contenedor-producto">
+                    <div class="div-imagen-producto">
+                       <img src="../multimedia/categoria-mangas/producto-manga-2-Bleach_Vol1.jpg" 
+                            alt="producto-manga-2-Bleach_Vol1" 
+                            class="img-producto">
+                    </div>
+                    <div class="div-nombre-precio">
+                        <h2 class="div-nombre">Bleach Vol 1</h2>
+                        <p class="div-precio">$3000</p>
+                        <button class="btn-agregar-carrito" id="categoria-mangas-producto-2">Agregar al Carrito</button>
+                    </div>
+                </div>
+
+                <div class="contenedor-producto">
+                    <div class="div-imagen-producto">
+                        <img src="../multimedia/categoria-mangas/producto-manga-3-Naruto_Vol1.jpg"
+                             alt="producto-manga-3-Naruto_Vol1" 
+                             class="img-producto">
+                    </div>
+                    <div class="div-nombre-precio">
+                        <h2 class="div-nombre">Naruto Vol 1</h2>
+                        <p class="div-precio">$100</p>
+                        <button class="btn-agregar-carrito" id="categoria-mangas-producto-3">Agregar al Carrito</button>
+                    </div>
+                </div>
+
+                <div class="contenedor-producto">
+                    <div class="div-imagen-producto">
+                         <img src="../multimedia/categoria-mangas/producto-manga-4-DragonBall_Vol1.jpg"
+                              alt="producto-manga-4-DragonBall_Vol1" 
+                              class="img-producto">
+                    </div>
+                    <div class="div-nombre-precio">
+                        <h2 class="div-nombre">Dragon Ball Vol 1</h2>
+                        <p class="div-precio">$9000</p>
+                        <button class="btn-agregar-carrito" id="categoria-mangas-producto-4">Agregar al Carrito</button>
+                    </div>
+                </div>
+
+                <div class="contenedor-producto">
                     <div class="filtro_cate">
-                       <img src="../multimedia/categoria-mangas/producto-manga-1-OnePiece_Vol1.jpg" alt="producto-manga-1-OnePiece_Vol1" style="max-width: 50%; display: block; margin: 0 auto;">
+                         <img src="../multimedia/categoria-mangas/producto-manga-5-DragonBallZ_Vol1.jpg"
+                              alt="producto-manga-5-DragonBallZ_Vol1" 
+                              class="img-producto">
+                    </div>
+                    <div class="div-nombre-precio">
+                        <h2 class="div-nombre">Dragon Ball Z Vol 1</h2>
+                        <p class="div-precio">$7000</p>
+                        <button class="btn-agregar-carrito" id="categoria-mangas-producto-5">Agregar al Carrito</button>
+                    </div>
+
+                </div>
+                <div class="contenedor-producto">
+                    <div class="filtro_cate">
+                         <img src="../multimedia/categoria-mangas/producto-manga-6-DragonBallGT_Vol1.jpg"
+                              alt="producto-manga-6-DragonBallGT_Vol1"
+                              class="img-producto">
+                    </div>
+                    <div class="div-nombre-precio">
+                        <h2 class="div-nombre">Dragon Ball GT Vol 1</h2>
+                        <p class="div-precio">$2000</p>
+                        <button class="btn-agregar-carrito"  id="categoria-mangas-producto-6">Agregar al Carrito</button>
+                    </div>
+                </div>
+
+                <div class="contenedor-producto">
+                    <div class="filtro_cate">
+                     <img src="../multimedia/categoria-mangas/producto-manga-7-ShingekiNoKyojin_Vol1.jpg" 
+                          alt="producto-manga-7-ShingekiNoKyojin_Vol1" 
+                          class="img-producto">
+                    </div>
+                    <div class="div-nombre-precio">
+                        <h2 class="div-nombre">Shingeki No Kyojin Vol 1</h2>
+                        <p class="div-precio">$4000</p>
+                        <button class="btn-agregar-carrito" id="categoria-mangas-producto-7">Agregar al Carrito</button>
+                    </div>
+                </div>
+                <div class="contenedor-producto">
+                    <div class="filtro_cate">
+                     <img src="../multimedia/categoria-mangas/producto-manga-8-Berserk_Vol1.jpg"
+                        alt="producto-manga-8-Berserk_Vol1" 
+                        class="img-producto">
+                    </div>
+                    <div class="div-nombre-precio">
+                        <h2 class="div-nombre">Berserk Vol 1</h2>
+                        <p class="div-precio">$10000</p>
+                        <button class="btn-agregar-carrito" id="categoria-mangas-producto-8">Agregar al Carrito</button>
+                    </div>
+                </div>
+                <div class="contenedor-producto">
+                    <div class="filtro_cate">
+                        <img src="../multimedia/categoria-mangas/producto-manga-9-FullMetalAlchemist_Vol1.jpg" 
+                             alt="producto-manga-9-FullMetalAlchemist_Vol1" 
+                             class="img-producto">
+                    </div>
+                    <div class="div-nombre-precio">
+                        <h2 class="div-nombre">Full Metal Alchemist Vol 1</h2>
+                        <p class="div-precio">$8000</p>
+                        <button class="btn-agregar-carrito" id="categoria-mangas-producto-9">Agregar al Carrito</button>
                     </div>
                 </div>
                 <div class="contenedor-mangas">
                     <div class="filtro_cate">
-                       <img src="../multimedia/categoria-mangas/producto-manga-2-Bleach_Vol1.jpg" alt="producto-manga-2-Bleach_Vol1" style="max-width: 50%; display: block; margin: 0 auto;">
-                       </div>
+                     <img src="../multimedia/categoria-mangas/producto-manga-10-Rurouni Kenshin_Vol1.jpg" 
+                     alt="Kenshin_Vol1" 
+                     class="img-producto">
                     </div>
-                <div class="contenedor-mangas">
-                    <div class="filtro_cate">
-                        <img src="../multimedia/categoria-mangas/producto-manga-3-Naruto_Vol1.jpg" alt="producto-manga-3-Naruto_Vol1" style="max-width: 50%; display: block; margin: 0 auto;">
-                    </div>
-                </div>
-                <div class="contenedor-mangas">
-                    <div class="filtro_cate">
-                         <img src="../multimedia/categoria-mangas/producto-manga-4-DragonBall_Vol1.jpg" alt="producto-manga-4-DragonBall_Vol1" style="max-width: 50%; display: block; margin: 0 auto;">
-                    </div>
-                </div>
-                <div class="contenedor-mangas">
-                    <div class="filtro_cate">
-                         <img src="../multimedia/categoria-mangas/producto-manga-5-DragonBallZ_Vol1.jpg" alt="producto-manga-5-DragonBallZ_Vol1" style="max-width: 50%; display: block; margin: 0 auto;">
-                    </div>
-                </div>
-                <div class="contenedor-mangas">
-                    <div class="filtro_cate">
-                         <img src="../multimedia/categoria-mangas/producto-manga-6-DragonBallGT_Vol1.jpg" alt="producto-manga-6-DragonBallGT_Vol1" style="max-width: 50%; display: block; margin: 0 auto;">
-                    </div>
-                </div>
-                <div class="contenedor-mangas">
-                    <div class="filtro_cate">
-                     <img src="../multimedia/categoria-mangas/producto-manga-7-ShingekiNoKyojin_Vol1.jpg" alt="producto-manga-7-ShingekiNoKyojin_Vol1" style="max-width: 50%; display: block; margin: 0 auto;">
-                    </div>
-                </div>
-                <div class="contenedor-mangas">
-                    <div class="filtro_cate">
-                     <img src="../multimedia/categoria-mangas/producto-manga-8-Berserk_Vol1.jpg" alt="producto-manga-8-Berserk_Vol1" style="max-width: 50%; display: block; margin: 0 auto;">
-                    </div>
-                </div>
-                <div class="contenedor-mangas">
-                    <div class="filtro_cate">
-                     <img src="../multimedia/categoria-mangas/producto-manga-9-FullMetalAlchemist_Vol1.jpg" alt="producto-manga-9-FullMetalAlchemist_Vol1" style="max-width: 50%; display: block; margin: 0 auto;">
-                    </div>
-                </div>
-                <div class="contenedor-mangas">
-                    <div class="filtro_cate">
-                     <img src="../multimedia/categoria-mangas/producto-manga-10-Rurouni Kenshin_Vol1.jpg" alt="Kenshin_Vol1" style="max-width: 50%; display: block; margin: 0 auto;">
+                    <div class="div-nombre-precio">
+                        <h2 class="div-nombre">Rurouni Kenshin Vol 1</h2>
+                        <p class="div-precio">$7000</p>
+                        <button class="btn-agregar-carrito" id="categoria-mangas-producto-10">Agregar al Carrito</button>
                     </div>
                 </div>                
             </div>
@@ -109,4 +187,5 @@
     </div>
     <script src="./app.js"></script>
 </body>
+
 </html>
