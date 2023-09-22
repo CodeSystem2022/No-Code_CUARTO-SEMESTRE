@@ -7,7 +7,7 @@
 }
 .contenedor-producto{
   width: 270px;
-  height: 284px;
+  height:390px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -19,6 +19,7 @@
   cursor: pointer;
   transition: all .6s;
 }
+/* el contenedor productos tiene el mismo height que el hover productos para evitar el agrandamiento */
 .contenedor-producto:hover{
   height: 390px;
   background-color: rgb(255, 102, 0);
