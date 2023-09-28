@@ -41,7 +41,7 @@ header {
   width: 100%;
   margin-top: 9rem;
   transition: margin .3s;
-  background: url(./multimedia/fondos/fondo.jpeg) center/ 100% no-repeat fixed;
+  background: url(./media/fondos/fondo.jpeg) center/ 100% no-repeat fixed;
 }
 /*Diseño Header*/
 .header {
@@ -73,7 +73,7 @@ header {
 .logo {
   width: 10rem;
   height: 7rem;
-  background: url(./multimedia/logo-tienda-tierra-media/logo-tierra-media.png) center/100% no-repeat;
+  background: url(./media/logo-tienda-tierra-media/logo-tierra-media.png) center/100% no-repeat;
   user-select: none;
 }
 
