@@ -13,7 +13,7 @@ Recuerda que la clave para un buen trabajo en equipo es la comunicación. Si tie
 ***
 ### INTEGRANTES:
 ---
-- 🖱️: Dante "El Nico" Martinez
+- 🖱️: Dante "El Nico" Martinez <kbd> <br> [Mi Repositorio de Github]([https://github.com/mzadante) <br> <br> </kbd>  <kbd> <br> [Mi Linkedin](https://www.linkedin.com/in/dantemart%C3%ADnez/) <br> <br> </kbd>
 - 🖱️: Dario Walter Carrizo
 - 🖱️: **_Andrés A. Winckler_**  <kbd> <br> [Mi Repositorio de Github](https://github.com/andreswinck) <br> <br> </kbd>  <kbd> <br> [Mi Linkedin](https://www.linkedin.com/in/andreswinckler/) <br> <br> </kbd>
 - 🖱️: Abel Pierna
