@@ -240,7 +240,6 @@ const productos = [
         img: "../media/productos-imagenes/producto-figuras-10.jpeg",
     },  
    
-];
 {
         id: 31,
         categoria: "armas",
