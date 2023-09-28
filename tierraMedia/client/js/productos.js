@@ -85,7 +85,7 @@ const productos = [
         nombreProducto: "X-men La gente de Mañana",
         precio: 3000,
         cantidad: 1,
-        img: "./media/productos-imagenes/producto-comic-20.jpeg",
+        img: "./media/productos-imagenes/producto-comic-1.jpeg",
     },
     {
         id: 12,
@@ -93,7 +93,7 @@ const productos = [
         nombreProducto: "The Ultimate - Vengadores",
         precio: 3000,
         cantidad: 1,
-        img: "./media/productos-imagenes/producto-comic-21.jpeg",
+        img: "./media/productos-imagenes/producto-comic-2.jpeg",
     },
     {
         id: 13,
@@ -101,7 +101,7 @@ const productos = [
         nombreProducto: "La Muerte de Wolverine",
         precio: 3000,
         cantidad: 1,
-        img: "./media/productos-imagenes/producto-comic-22.jpeg",
+        img: "./media/productos-imagenes/producto-comic-3.jpeg",
     },
     {
         id: 14,
@@ -109,7 +109,7 @@ const productos = [
         nombreProducto: "Spiderman - Un Mundo compartido",
         precio: 3000,
         cantidad: 1,
-        img: "./media/productos-imagenes/producto-comic-23.jpeg",
+        img: "./media/productos-imagenes/producto-comic-4.jpeg",
     },
     {
         id: 15,
@@ -117,7 +117,7 @@ const productos = [
         nombreProducto: "Superman & Wonder Woman",
         precio: 3000,
         cantidad: 1,
-        img: "./media/productos-imagenes/producto-comic-24.jpeg",
+        img: "./media/productos-imagenes/producto-comic-5.jpeg",
     },
     {
         id: 16,
@@ -125,7 +125,7 @@ const productos = [
         nombreProducto: "Liga de la justicia - Escalera al Cielo",
         precio: 3000,
         cantidad: 1,
-        img: "./media/productos-imagenes/producto-comic-25.jpeg",
+        img: "./media/productos-imagenes/producto-comic-6.jpeg",
     },
     {
         id: 17,
@@ -133,7 +133,7 @@ const productos = [
         nombreProducto: "Las Aventuras de Batman",
         precio: 3000,
         cantidad: 1,
-        img: "./media/productos-imagenes/producto-comic-26.jpeg",
+        img: "./media/productos-imagenes/producto-comic-7.jpeg",
     },
     {
         id: 18,
@@ -141,7 +141,7 @@ const productos = [
         nombreProducto: "Sand Man - de Neil Gaiman",
         precio: 3000,
         cantidad: 1,
-        img: "./media/productos-imagenes/producto-comic-27.jpeg",
+        img: "./media/productos-imagenes/producto-comic-8.jpeg",
     },
     {
         id: 19,
@@ -149,7 +149,7 @@ const productos = [
         nombreProducto: "Batman . La Borma Asesina",
         precio: 3000,
         cantidad: 1,
-        img: "./media/productos-imagenes/producto-comic-28.jpeg",
+        img: "./media/productos-imagenes/producto-comic-9.jpeg",
     },
     {
         id: 20,
@@ -157,15 +157,8 @@ const productos = [
         nombreProducto: "HellBlazer - Habitos Peligrosos",
         precio: 3000,
         cantidad: 1,
-        img: "./media/productos-imagenes/producto-comic-29.jpeg",
+        img: "./media/productos-imagenes/producto-comic-10.jpeg",
     },
-    {
-        id: 21,
-        categoria: "comics",
-        nombreProducto: "Batman - Knightfall",
-        precio: 3000,
-        cantidad: 1,
-        img: "./media/productos-imagenes/producto-comic-30.jpeg",
-    },
+
     
 ];
