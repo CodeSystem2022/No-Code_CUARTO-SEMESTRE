@@ -238,9 +238,13 @@ const productos = [
         precio: 3000,
         cantidad: 1,
         img: "../media/productos-imagenes/producto-figuras-10.jpeg",
-    },
+
+    },  
+   
+
 
     {
+
         id: 31,
         categoria: "armas",
         nombreProducto: "Espada Maestra TLOZ",
@@ -319,7 +323,9 @@ const productos = [
         precio: 3000,
         cantidad: 1,
         img: "../media/productos-imagenes/producto-arma-10.jpeg",
+
     },
+
     {
         id: 41,
         categoria: "simpsons",
