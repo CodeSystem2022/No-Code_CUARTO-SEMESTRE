@@ -165,15 +165,15 @@ const productos = [
         nombreProducto: "Figura Gaara",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-figuras-1.jpeg",
+        img: "./media/productos-imagenes/producto-figura-1.jpeg",
     },
     {
         id: 22,
-        categoria: "remeras",
+        categoria: "figuras",
         nombreProducto: "Figura Ten Ten",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-figuras-2.jpeg",
+        img: "./media/productos-imagenes/producto-figura-2.jpeg",
     },
     {
         id: 23,
@@ -181,7 +181,7 @@ const productos = [
         nombreProducto: "Figura Sai",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-figuras-3.jpeg",
+        img: "./media/productos-imagenes/producto-figura-3.jpeg",
     },
     {
         id: 24,
@@ -189,7 +189,7 @@ const productos = [
         nombreProducto: "Figura Naruto",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-figuras-4.jpeg",
+        img: "./media/productos-imagenes/producto-figura-4.jpeg",
     },
     {
         id: 25,
@@ -197,7 +197,7 @@ const productos = [
         nombreProducto: "Figura Jiraiya",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-figuras-5.jpeg",
+        img: "./media/productos-imagenes/producto-figura-5.jpeg",
     },
     {
         id: 26,
@@ -205,15 +205,15 @@ const productos = [
         nombreProducto: "Figura Hidan",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-figuras-6.jpeg",
+        img: "./media/productos-imagenes/producto-figura-6.jpeg",
     },
     {
         id: 27,
-        categoria: "Figura Itachi",
-        nombreProducto: "Remera...",
+        categoria: "figuras",
+        nombreProducto: "Figura Itachi",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-remeras-7.jpeg",
+        img: "./media/productos-imagenes/producto-figura-7.jpeg",
     },
     {
         id: 28,
@@ -221,7 +221,7 @@ const productos = [
         nombreProducto: "Figura Obito",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-remeras-8.jpeg",
+        img: "./media/productos-imagenes/producto-figura-8.jpeg",
     },
     {
         id: 29,
@@ -229,7 +229,7 @@ const productos = [
         nombreProducto: "Figura Minato",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-figuras-9.jpeg",
+        img: "./media/productos-imagenes/producto-figura-9.jpeg",
     },
     {
         id: 30,
@@ -237,7 +237,7 @@ const productos = [
         nombreProducto: "Figura Luffy",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-figuras-10.jpeg",
+        img: "./media/productos-imagenes/producto-figura-10.jpeg",
 
     },  
    
@@ -250,7 +250,7 @@ const productos = [
         nombreProducto: "Espada Maestra TLOZ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-arma-1.jpeg",
+        img: "./media/productos-imagenes/producto-arma-1.jpeg",
     },
     {
         id: 32,
@@ -258,7 +258,7 @@ const productos = [
         nombreProducto: "Garra Freddy Krueger",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-arma-2.jpeg",
+        img: "./media/productos-imagenes/producto-arma-2.jpeg",
     },
     {
         id: 33,
@@ -266,7 +266,7 @@ const productos = [
         nombreProducto: "Lazo de la Verdad WW",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-arma-3.jpeg",
+        img: "./media/productos-imagenes/producto-arma-3.jpeg",
     },
     {
         id: 34,
@@ -274,7 +274,7 @@ const productos = [
         nombreProducto: "Ropera del Zorro",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-arma-4.jpeg",
+        img: "./media/productos-imagenes/producto-arma-4.jpeg",
     },
     {
         id: 35,
@@ -282,7 +282,7 @@ const productos = [
         nombreProducto: "Motosierra Evil Dead",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-arma-5.jpeg",
+        img: "./media/productos-imagenes/producto-arma-5.jpeg",
     },
     {
         id: 36,
@@ -290,7 +290,7 @@ const productos = [
         nombreProducto: "Katana Hattori Hanzo",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-arma-6.jpeg",
+        img: "./media/productos-imagenes/producto-arma-6.jpeg",
     },
     {
         id: 37,
@@ -298,7 +298,7 @@ const productos = [
         nombreProducto: "armas",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-arma-7.jpeg",
+        img: "./media/productos-imagenes/producto-arma-7.jpeg",
     },
     {
         id: 38,
@@ -306,7 +306,7 @@ const productos = [
         nombreProducto: "Espada de Gryffindor",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-arma-8.jpeg",
+        img: "./media/productos-imagenes/producto-arma-8.jpeg",
     },
     {
         id: 39,
@@ -314,7 +314,7 @@ const productos = [
         nombreProducto: "Sable de Luz Luke Star Wars",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-arma-9.jpeg",
+        img: "./media/productos-imagenes/producto-arma-9.jpeg",
     },
     {
         id: 40,
@@ -322,7 +322,7 @@ const productos = [
         nombreProducto: "Frostmourne Warcraft",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-arma-10.jpeg",
+        img: "./media/productos-imagenes/producto-arma-10.jpeg",
 
     },
 
@@ -332,7 +332,7 @@ const productos = [
         nombreProducto: "diseño-1",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-simpsons-1.png",
+        img: "./media/productos-imagenes/producto-simpsons-1.png",
     },
     {
         id: 42,
@@ -340,7 +340,7 @@ const productos = [
         nombreProducto: "diseño-2",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-simpsons-2.png",
+        img: "./media/productos-imagenes/producto-simpsons-2.png",
     },
     {
         id: 43,
@@ -348,7 +348,7 @@ const productos = [
         nombreProducto: "diseño-3",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-simpsons-3.png",
+        img: "./media/productos-imagenes/producto-simpsons-3.png",
     },
     {
         id: 44,
@@ -356,7 +356,7 @@ const productos = [
         nombreProducto: "diseño-4",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-simpsons-4.png",
+        img: "./media/productos-imagenes/producto-simpsons-4.png",
     },
     {
         id: 45,
@@ -364,7 +364,7 @@ const productos = [
         nombreProducto: "diseño-5",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-simpsons-5.png",
+        img: "./media/productos-imagenes/producto-simpsons-5.png",
     },
     {
         id: 46,
@@ -372,7 +372,7 @@ const productos = [
         nombreProducto: "diseño-6",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-simpsons-6.png",
+        img: "./media/productos-imagenes/producto-simpsons-6.png",
     },
     {
         id: 47,
@@ -380,7 +380,7 @@ const productos = [
         nombreProducto: "diseño-7",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-simpsons-7.png",
+        img: "./media/productos-imagenes/producto-simpsons-7.png",
     },
     {
         id: 48,
@@ -388,7 +388,7 @@ const productos = [
         nombreProducto: "diseño-8",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-simpsons-8.png",
+        img: "./media/productos-imagenes/producto-simpsons-8.png",
     },
     {
         id: 49,
@@ -396,7 +396,7 @@ const productos = [
         nombreProducto: "diseño-9",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-simpsons-9.png",
+        img: "./media/productos-imagenes/producto-simpsons-9.png",
     },
     {
         id: 50,
@@ -404,7 +404,7 @@ const productos = [
         nombreProducto: "diseño-10",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-simpsons-10.jpg",
+        img: "./media/productos-imagenes/producto-simpsons-10.jpg",
     },
     {
         id: 51,
@@ -412,7 +412,7 @@ const productos = [
         nombreProducto: "taza star wars ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-taza-1.jpeg",
+        img: "./media/productos-imagenes/producto-taza-1.jpeg",
     },
     {
         id: 52,
@@ -420,7 +420,7 @@ const productos = [
         nombreProducto: "taza star wars ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-taza-2.jpeg",
+        img: "./media/productos-imagenes/producto-taza-2.jpeg",
     },
     {
         id: 53,
@@ -428,7 +428,7 @@ const productos = [
         nombreProducto: "taza star wars ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-taza-3.png",
+        img: "./media/productos-imagenes/producto-taza-3.png",
     },
     {
         id: 54,
@@ -436,7 +436,7 @@ const productos = [
         nombreProducto: "taza star wars ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-taza-4.jpeg",
+        img: "./media/productos-imagenes/producto-taza-4.jpeg",
     },
     {
         id: 55,
@@ -444,7 +444,7 @@ const productos = [
         nombreProducto: "taza star wars ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-taza-5.jpeg",
+        img: "./media/productos-imagenes/producto-taza-5.jpeg",
     },
     {
         id: 56,
@@ -452,7 +452,7 @@ const productos = [
         nombreProducto: "taza star wars ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-taza-6.png",
+        img: "./media/productos-imagenes/producto-taza-6.png",
     },
     {
         id: 57,
@@ -460,7 +460,7 @@ const productos = [
         nombreProducto: "taza star wars ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-taza-7.jpeg",
+        img: "./media/productos-imagenes/producto-taza-7.jpg",
     },
     {
         id: 58,
@@ -468,7 +468,7 @@ const productos = [
         nombreProducto: "taza star wars ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-taza-8.png",
+        img: "./media/productos-imagenes/producto-taza-8.png",
     },
     {
         id: 59,
@@ -476,7 +476,7 @@ const productos = [
         nombreProducto: "taza star wars ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-taza-9.jpg",
+        img: "./media/productos-imagenes/producto-taza-9.jpg",
     },
     {
         id: 60,
@@ -484,7 +484,7 @@ const productos = [
         nombreProducto: "taza star wars ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-taza-10.jpg",
+        img: "./media/productos-imagenes/producto-taza-10.jpg",
     },
     {
         id: 61,
@@ -492,7 +492,7 @@ const productos = [
         nombreProducto: "Collar numero PI",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-accesorio-1.jpg",
+        img: "./media/productos-imagenes/producto-accesorio-1.jpg",
     },
     {
         id: 62,
@@ -500,7 +500,7 @@ const productos = [
         nombreProducto: "Almohadon para cuello Programmer",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-accesorio-2.jpg",
+        img: "./media/productos-imagenes/producto-accesorio-2.jpg",
     },
     {
         id: 63,
@@ -508,7 +508,7 @@ const productos = [
         nombreProducto: "Collar Akatsuki Naruto",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-accesorio-3.jpg",
+        img: "./media/productos-imagenes/producto-accesorio-3.jpg",
     },
     {
         id: 64,
@@ -516,7 +516,7 @@ const productos = [
         nombreProducto: "Collar Yin Yang",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-accesorio-4.webp",
+        img: "./media/productos-imagenes/producto-accesorio-4.webp",
     },
     {
         id: 65,
@@ -524,7 +524,7 @@ const productos = [
         nombreProducto: "Llavero Flash",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-accesorio-5.jpg",
+        img: "./media/productos-imagenes/producto-accesorio-5.jpg",
     },
     {
         id: 66,
@@ -532,7 +532,7 @@ const productos = [
         nombreProducto: "Llavero El Hombre Araña",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-accesorio-6.webp",
+        img: "./media/productos-imagenes/producto-accesorio-6.webp",
     },
     {
         id: 67,
@@ -540,7 +540,7 @@ const productos = [
         nombreProducto: "Gorra Linux",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-accesorio-7.jpg",
+        img: "./media/productos-imagenes/producto-accesorio-7.jpg",
     },
     {
         id: 68,
@@ -548,7 +548,7 @@ const productos = [
         nombreProducto: "Llavero Snitch Dorada Quidditch de Harry Potter",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-accesorio-8.jpg",
+        img: "./media/productos-imagenes/producto-accesorio-8.jpg",
     },
     {
         id: 69,
@@ -556,7 +556,7 @@ const productos = [
         nombreProducto: "Gorra Programmer",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-accesorio-9.jpg",
+        img: "./media/productos-imagenes/producto-accesorio-9.jpg",
     },
     {
         id: 70,
@@ -564,7 +564,7 @@ const productos = [
         nombreProducto: "Anillo de las Gemas del Infinito",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-accesorio-10.jpg",
+        img: "./media/productos-imagenes/producto-accesorio-10.jpg",
     },
     {
         id: 71,
@@ -572,7 +572,7 @@ const productos = [
         nombreProducto: "Llavero V de Vendetta",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-accesorio-11.jpg",
+        img: "./media/productos-imagenes/producto-accesorio-11.jpg",
     },
 
     
@@ -582,7 +582,7 @@ const productos = [
         nombreProducto: "One piece vol 1 ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-manga-1-OnePiece_Vol1.jpg",
+        img: "./media/productos-imagenes/producto-manga-1-OnePiece_Vol1.jpg",
     },
     {
         id: 73,
@@ -590,7 +590,7 @@ const productos = [
         nombreProducto: "Bleach vol 1 ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-manga-2-Bleach_Vol1.jpg",
+        img: "./media/productos-imagenes/producto-manga-2-Bleach_Vol1.jpg",
     },
     {
         id: 74,
@@ -598,7 +598,7 @@ const productos = [
         nombreProducto: "Naruto vol 1 ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-manga-3-Naruto_Vol1.jpg",
+        img: "./media/productos-imagenes/producto-manga-3-Naruto_Vol1.jpg",
     },
     {
         id: 75,
@@ -606,7 +606,7 @@ const productos = [
         nombreProducto: "Dragon ball vol 1 ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-manga-4-DragonBall_Vol1.jpg",
+        img: "./media/productos-imagenes/producto-manga-4-DragonBall_Vol1.jpg",
     },
     {
         id: 76,
@@ -614,7 +614,7 @@ const productos = [
         nombreProducto: "Dragon ball z vol 1",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-manga-5-DragonBallZ_Vol1.jpg.png",
+        img: "./media/productos-imagenes/producto-manga-5-DragonBallZ_Vol1.jpg",
     },
     {
         id: 77,
@@ -622,7 +622,7 @@ const productos = [
         nombreProducto: "Dragon ball gt vol 1",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-manga-6-DragonBallGT_Vol1.jpg",
+        img: "./media/productos-imagenes/producto-manga-6-DragonBallGT_Vol1.jpg",
     },
     {
         id: 78,
@@ -630,7 +630,7 @@ const productos = [
         nombreProducto: "Shingeki no kyojin vol 1 ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-manga-7-ShingekiNoKyojin_Vol1.jpg",
+        img: "./media/productos-imagenes/producto-manga-7-ShingekiNoKyojin_Vol1.jpg",
     },
     {
         id: 79,
@@ -638,7 +638,7 @@ const productos = [
         nombreProducto: "Berserk vol 1 ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-manga-8-Berserk_Vol1.jpg",
+        img: "./media/productos-imagenes/producto-manga-8-Berserk_Vol1.jpg",
     },
     {
         id: 80,
@@ -646,7 +646,7 @@ const productos = [
         nombreProducto: "Full metal alchemist vol 1 ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-manga-9-FullMetalAlchemist_Vol1.jpg",
+        img: "./media/productos-imagenes/producto-manga-9-FullMetalAlchemist_Vol1.jpg",
     },
     {
         id: 81,
@@ -654,7 +654,7 @@ const productos = [
         nombreProducto: "Rurouni kenshin vol 1 ",
         precio: 3000,
         cantidad: 1,
-        img: "../media/productos-imagenes/producto-manga-10-Rurouni Kenshin_Vol1.jpg",
+        img: "./media/productos-imagenes/producto-manga-10-Rurouni Kenshin_Vol1.jpg",
     },
     
 ];
