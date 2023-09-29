@@ -24,10 +24,6 @@ Recuerda que la clave para un buen trabajo en equipo es la comunicación. Si tie
 - 🖱️: Franco Lara
   <br>
   <br>
- <table><tr><td>Listado de Proyectos del 4º semestre</td></tr></table>
- 
-[<kbd> <br> Ver proyecto semana 17/08 al 24/08 <br> <br> </kbd>](https://github.com/orgs/CodeSystem2022/projects/1199/) <br>
-[<kbd> <br> Ver proyecto semana 25/08 al 31/08 <br> <br> </kbd>](https://github.com/orgs/CodeSystem2022/projects/1271)
  
 # Scrum Master Obligaciones:
 - Generar el proyecto
