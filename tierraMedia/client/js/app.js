@@ -4,6 +4,7 @@ const contenedorMain = document.querySelector(".productos");
 const tituloEncabezado = document.querySelector(".titulo");
 const tituloSuperior =  document.querySelector(".titulo_superior")
 var valorOpcionMenu = undefined;
+//se crea un array vacio
 const cart = [];
 
 
@@ -79,9 +80,6 @@ if (window.location.pathname.endsWith("productos.html")) {
             break;
     }
 
-
-
-
 };
 function opcionMenu(opcionMenu) {
     valorOpcionMenu = opcionMenu;
@@ -89,7 +87,7 @@ function opcionMenu(opcionMenu) {
 };
 function crearProductoHtml(producto) {
     const divContenedorProducto = document.createElement("div");
-
+    //agrego en el boton de compra el id del boton id="btn-compra"
     divContenedorProducto.innerHTML = `
         <div class="contenedor-producto">
             <div class="div-imagen-producto">
@@ -106,12 +104,13 @@ function crearProductoHtml(producto) {
 
     contenedorMain.append(divContenedorProducto);
 
-    
+    //agregar al carrito
     const buyButton = divContenedorProducto.querySelector("#btn-compra");
     buyButton.addEventListener("click", () => {
+        //que se agregue al carrito por id pero que no se repita
         const repeat = cart.some((repeatProduct) => repeatProduct.id === producto.id);
-
         if(repeat) {
+            //si se repite el producto, se suma la cantidad
             cart.map((prod) => {
                 if(prod.id === producto.id) {
                     prod.quanty ++;
@@ -119,6 +118,7 @@ function crearProductoHtml(producto) {
                 }
             });
         }else{
+            //agrego al carrito los datos del producto
             cart.push({
                 id: producto.id,
                 productName: producto.nombreProducto,
@@ -134,13 +134,13 @@ function crearProductoHtml(producto) {
    
 
 
-
+//creo el carrito
 const modalContainer = document.querySelector('.modal-container');
 const modalOverlay = document.querySelector('.modal-overlay');
-
+//coloco el boton del carrito
 const cartBtn = document.getElementById('cart-btnn');
 const cartCounter = document.getElementById('cart-counter');
-
+//con esta funcion muestro el carrito
 const displayCart = () => {
     modalContainer.innerHTML = "";
     modalContainer.style.display = "block";
@@ -153,21 +153,23 @@ const displayCart = () => {
     modalClose.innerText = "❌";
     modalClose.className = "modal-close";
     modalHeader.append(modalClose);
-
+    //cuando hago click en la x se cierra el carrito
     modalClose.addEventListener('click', () => {
         modalContainer.style.display = "none";
         modalOverlay.style.display = "none";
     });
-
+    //titulo del carrito
     const modalTitle = document.createElement('div');
     modalTitle.innerText = "Carrito de compras";
     modalTitle.className = "modal-title";
     modalHeader.append(modalTitle);
-
+    //agruegar el carrito al modal
     modalContainer.append(modalHeader);
 
     //modal Body
+    //si el carrito esta vacio
     if( cart.length > 0) {
+        //se crea un div por cada producto
     cart.forEach((producto) => {
     const modalBody = document.createElement("div");
     modalBody.className = "modal-body";
@@ -187,9 +189,11 @@ const displayCart = () => {
                 <div class="delete-product">❌</div>
         </div>        
     `;
+    //agrergar el body al modalContainer
     modalContainer.append(modalBody);
     //console.log(modalBody);
-
+    //modal body events
+    //decremento la cantidad en el carrito    
     const decrease = modalBody.querySelector('.quantity-btn-decrease');
     decrease.addEventListener('click', () => {
         if(producto.quanty !== 1){
@@ -198,7 +202,7 @@ const displayCart = () => {
         displayCartCounter();
         }    
     });
-
+    //incremento la cantidad en el carrito
     const increase = modalBody.querySelector('.quantity-btn-increase');
     increase.addEventListener('click', () => {
         producto.quanty ++;
@@ -206,7 +210,7 @@ const displayCart = () => {
         displayCartCounter();
     });
 
-    //delete product
+    //delete producto del carrito
     const deleteProduct = modalBody.querySelector('.delete-product');
     deleteProduct.addEventListener('click', () => {
         deleteCartProduct(producto.id);
@@ -216,6 +220,7 @@ const displayCart = () => {
 
 
     //modal footer
+    //calcula el total de la compra
     const total = cart.reduce((acc, elemento) => acc + elemento.price * elemento.quanty, 0);
     const modalFooter = document.createElement('div');
     modalFooter.className = "modal-footer";
@@ -224,27 +229,35 @@ const displayCart = () => {
     `;
     modalContainer.append(modalFooter);
 }else{
+    //si el carrito esta vacio
     const modalText = document.createElement('h2');
     modalText.className = "modal-body";
     modalText.innerText = "No hay productos en el carrito";
     modalContainer.append(modalText);
 }
 };
+//funcion para eliminar un producto del carrito
 const deleteCartProduct = (id) =>{
+    //busco el id del producto en el carrito
     const foundId = cart.findIndex((element) => element.id === id);
     //console.log(foundId);
+    //elimino el producto del carrito con el id encontrado
     cart.splice(foundId, 1);
     displayCart();
     displayCartCounter();
 }
+//evento para mostrar el carrito
 cartBtn.addEventListener('click', displayCart);
-
+//funcion para mostrar la cantidad de productos en el carrito
 const displayCartCounter = () => {
+    //reduce para sumar la cantidad de productos en el carrito
     const cartLength = cart.reduce((acc, elem) => acc + elem.quanty, 0);
+    //si el carrito tiene productos
     if(cart.length > 0) {
         cartCounter.style.display = "block";
         cartCounter.innerText = cartLength;
     }else{
+        //si el carrito esta vacio
         cartCounter.style.display = "none";
     }
 };
