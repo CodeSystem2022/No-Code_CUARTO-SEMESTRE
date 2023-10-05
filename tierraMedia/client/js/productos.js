@@ -497,7 +497,7 @@ const productos = [
     {
         id: 62,
         categoria: "accesorios",
-        nombreProducto: "Almohadon para cuello Programmer",
+        nombreProducto: "Collar Akatsuki Naruto",
         precio: 3000,
         cantidad: 1,
         img: "./media/productos-imagenes/producto-accesorio-2.jpg",
@@ -505,39 +505,39 @@ const productos = [
     {
         id: 63,
         categoria: "accesorios",
-        nombreProducto: "Collar Akatsuki Naruto",
+        nombreProducto: "Collar Yin Yang",
         precio: 3000,
         cantidad: 1,
-        img: "./media/productos-imagenes/producto-accesorio-3.jpg",
+        img: "./media/productos-imagenes/producto-accesorio-3.webp",
     },
     {
         id: 64,
         categoria: "accesorios",
-        nombreProducto: "Collar Yin Yang",
+        nombreProducto: "Llavero Flash",
         precio: 3000,
         cantidad: 1,
-        img: "./media/productos-imagenes/producto-accesorio-4.webp",
+        img: "./media/productos-imagenes/producto-accesorio-4.jpg",
     },
     {
         id: 65,
         categoria: "accesorios",
-        nombreProducto: "Llavero Flash",
+        nombreProducto: "Llavero El Hombre Araña",
         precio: 3000,
         cantidad: 1,
-        img: "./media/productos-imagenes/producto-accesorio-5.jpg",
+        img: "./media/productos-imagenes/producto-accesorio-5.webp",
     },
     {
         id: 66,
         categoria: "accesorios",
-        nombreProducto: "Llavero El Hombre Araña",
+        nombreProducto: "Gorra Linux",
         precio: 3000,
         cantidad: 1,
-        img: "./media/productos-imagenes/producto-accesorio-6.webp",
+        img: "./media/productos-imagenes/producto-accesorio-6.jpg",
     },
     {
         id: 67,
         categoria: "accesorios",
-        nombreProducto: "Gorra Linux",
+        nombreProducto: "Llavero Snitch Dorada Quidditch de Harry Potter",
         precio: 3000,
         cantidad: 1,
         img: "./media/productos-imagenes/producto-accesorio-7.jpg",
@@ -545,7 +545,7 @@ const productos = [
     {
         id: 68,
         categoria: "accesorios",
-        nombreProducto: "Llavero Snitch Dorada Quidditch de Harry Potter",
+        nombreProducto: "Gorra Programmer",
         precio: 3000,
         cantidad: 1,
         img: "./media/productos-imagenes/producto-accesorio-8.jpg",
@@ -553,7 +553,7 @@ const productos = [
     {
         id: 69,
         categoria: "accesorios",
-        nombreProducto: "Gorra Programmer",
+        nombreProducto: "Anillo de las Gemas del Infinito",
         precio: 3000,
         cantidad: 1,
         img: "./media/productos-imagenes/producto-accesorio-9.jpg",
@@ -561,23 +561,13 @@ const productos = [
     {
         id: 70,
         categoria: "accesorios",
-        nombreProducto: "Anillo de las Gemas del Infinito",
+        nombreProducto: "Llavero V de Vendetta",
         precio: 3000,
         cantidad: 1,
         img: "./media/productos-imagenes/producto-accesorio-10.jpg",
     },
     {
         id: 71,
-        categoria: "accesorios",
-        nombreProducto: "Llavero V de Vendetta",
-        precio: 3000,
-        cantidad: 1,
-        img: "./media/productos-imagenes/producto-accesorio-11.jpg",
-    },
-
-    
-    {
-        id: 72,
         categoria: "mangas",
         nombreProducto: "One piece vol 1 ",
         precio: 3000,
@@ -585,7 +575,7 @@ const productos = [
         img: "./media/productos-imagenes/producto-manga-1-OnePiece_Vol1.jpg",
     },
     {
-        id: 73,
+        id: 72,
         categoria: "mangas",
         nombreProducto: "Bleach vol 1 ",
         precio: 3000,
@@ -593,7 +583,7 @@ const productos = [
         img: "./media/productos-imagenes/producto-manga-2-Bleach_Vol1.jpg",
     },
     {
-        id: 74,
+        id: 73,
         categoria: "mangas",
         nombreProducto: "Naruto vol 1 ",
         precio: 3000,
@@ -601,7 +591,7 @@ const productos = [
         img: "./media/productos-imagenes/producto-manga-3-Naruto_Vol1.jpg",
     },
     {
-        id: 75,
+        id: 74,
         categoria: "mangas",
         nombreProducto: "Dragon ball vol 1 ",
         precio: 3000,
@@ -609,7 +599,7 @@ const productos = [
         img: "./media/productos-imagenes/producto-manga-4-DragonBall_Vol1.jpg",
     },
     {
-        id: 76,
+        id: 75,
         categoria: "mangas",
         nombreProducto: "Dragon ball z vol 1",
         precio: 3000,
@@ -617,7 +607,7 @@ const productos = [
         img: "./media/productos-imagenes/producto-manga-5-DragonBallZ_Vol1.jpg",
     },
     {
-        id: 77,
+        id: 76,
         categoria: "mangas",
         nombreProducto: "Dragon ball gt vol 1",
         precio: 3000,
@@ -625,7 +615,7 @@ const productos = [
         img: "./media/productos-imagenes/producto-manga-6-DragonBallGT_Vol1.jpg",
     },
     {
-        id: 78,
+        id: 77,
         categoria: "mangas",
         nombreProducto: "Shingeki no kyojin vol 1 ",
         precio: 3000,
@@ -633,7 +623,7 @@ const productos = [
         img: "./media/productos-imagenes/producto-manga-7-ShingekiNoKyojin_Vol1.jpg",
     },
     {
-        id: 79,
+        id: 78,
         categoria: "mangas",
         nombreProducto: "Berserk vol 1 ",
         precio: 3000,
@@ -641,7 +631,7 @@ const productos = [
         img: "./media/productos-imagenes/producto-manga-8-Berserk_Vol1.jpg",
     },
     {
-        id: 80,
+        id: 79,
         categoria: "mangas",
         nombreProducto: "Full metal alchemist vol 1 ",
         precio: 3000,
@@ -649,12 +639,11 @@ const productos = [
         img: "./media/productos-imagenes/producto-manga-9-FullMetalAlchemist_Vol1.jpg",
     },
     {
-        id: 81,
+        id: 80,
         categoria: "mangas",
         nombreProducto: "Rurouni kenshin vol 1 ",
         precio: 3000,
         cantidad: 1,
         img: "./media/productos-imagenes/producto-manga-10-Rurouni Kenshin_Vol1.jpg",
     },
-    
 ];
