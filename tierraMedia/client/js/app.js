@@ -1,90 +1,20 @@
-
-
 const contenedorMain = document.querySelector(".productos");
-const tituloEncabezado = document.querySelector(".titulo");
-const tituloSuperior =  document.querySelector(".titulo_superior")
-var valorOpcionMenu = undefined;
 //se crea un array vacio
 const cart = [];
 
+document.addEventListener("DOMContentLoaded", function () {
 
-if (window.location.pathname.endsWith("productos.html")) {
-    const valorOpcionMenu = localStorage.getItem('valorOpcionMenu');
-    switch (valorOpcionMenu) {
-        case 'tazas':
-            const productosTazas = productos.filter((producto) => producto.categoria === 'tazas');
-            productosTazas.forEach((producto) => {
-                tituloEncabezado.textContent = "Tazas";
-                tituloSuperior.textContent = 'Productos Tazas | Tierra Media';
-                crearProductoHtml(producto);
-            });
-            break;
-        case 'remeras':
-            const productosRemeras = productos.filter((producto) => producto.categoria === 'remeras');
-            productosRemeras.forEach((producto) => {
-                tituloEncabezado.textContent = "Remeras";
-                tituloSuperior.textContent = 'Productos Remeras | Tierra Media';
-                crearProductoHtml(producto);
-            });
-            break;
-        case 'figuras':
-            const productosFiguras = productos.filter((producto) => producto.categoria === 'figuras');
-            productosFiguras.forEach((producto) => {
-                tituloEncabezado.textContent = "Figuras";
-                tituloSuperior.textContent = 'Productos Figuras | Tierra media';
-                crearProductoHtml(producto);
-            });
-            break;
-        case 'accesorios':
-            const productosAccesorios = productos.filter((producto) => producto.categoria === 'accesorios');
-            productosAccesorios.forEach((producto) => {
-                tituloEncabezado.textContent = "Accesorios";
-                tituloSuperior.textContent = 'Productos Accesorios | Tierra media';
-                crearProductoHtml(producto);
-            });
-            break;
-        case 'comics':
-            const productosComics = productos.filter((producto) => producto.categoria === 'comics');
-            productosComics.forEach((producto) => {
-                tituloEncabezado.textContent = "Comics";
-                tituloSuperior.textContent = 'Productos Comics | Tierra media';
-                crearProductoHtml(producto);
-            });
-            break;
-        case 'mangas':
-            const productosMangas = productos.filter((producto) => producto.categoria === 'mangas');
-            productosMangas.forEach((producto) => {
-                tituloEncabezado.textContent = "Mangas";
-                tituloSuperior.textContent = 'Productos Mangas | Tierra media';
-                crearProductoHtml(producto);
-            });
-            break;
-        case 'simpsons':
-            const productosSimpsons = productos.filter((producto) => producto.categoria === 'simpsons');
-            productosSimpsons.forEach((producto) => {
-                tituloEncabezado.textContent = "Simpson Mania";
-                tituloSuperior.textContent = 'Productos Simpson Mania | Tierra media';
-                crearProductoHtml(producto);
-            });
-            break;
-        case 'armas':
-            const productosArmas = productos.filter((producto) => producto.categoria === 'armas');
-            productosArmas.forEach((producto) => {
-                tituloEncabezado.textContent = "Armas";
-                tituloSuperior.textContent = 'Productos Armas Colección | Tierra media';
-                crearProductoHtml(producto);
-            });
-            break;
+    productos.forEach((producto) => {
+        crearProductoHtml(producto);
 
-        default:
-            break;
-    }
+    });
+    
 
-};
-function opcionMenu(opcionMenu) {
-    valorOpcionMenu = opcionMenu;
-    localStorage.setItem('valorOpcionMenu', valorOpcionMenu);
-};
+
+});
+
+
+
 function crearProductoHtml(producto) {
     const divContenedorProducto = document.createElement("div");
     //agrego en el boton de compra el id del boton id="btn-compra"
@@ -109,15 +39,15 @@ function crearProductoHtml(producto) {
     buyButton.addEventListener("click", () => {
         //que se agregue al carrito por id pero que no se repita
         const repeat = cart.some((repeatProduct) => repeatProduct.id === producto.id);
-        if(repeat) {
+        if (repeat) {
             //si se repite el producto, se suma la cantidad
             cart.map((prod) => {
-                if(prod.id === producto.id) {
-                    prod.quanty ++;
+                if (prod.id === producto.id) {
+                    prod.quanty++;
                     displayCartCounter();
                 }
             });
-        }else{
+        } else {
             //agrego al carrito los datos del producto
             cart.push({
                 id: producto.id,
@@ -127,18 +57,15 @@ function crearProductoHtml(producto) {
                 img: producto.img,
             });
             //console.log(cart);
-            displayCartCounter
-        }   
+            displayCartCounter()
+        }
     });
-};
-   
-
-
+}
 //creo el carrito
 const modalContainer = document.querySelector('.modal-container');
 const modalOverlay = document.querySelector('.modal-overlay');
 //coloco el boton del carrito
-const cartBtn = document.getElementById('cart-btnn');
+const cartBtn = document.getElementById('cart-btn');
 const cartCounter = document.getElementById('cart-counter');
 //con esta funcion muestro el carrito
 const displayCart = () => {
@@ -147,7 +74,7 @@ const displayCart = () => {
     modalOverlay.style.display = "block";
     //modal header
     const modalHeader = document.createElement('div');
-    
+
     const modalClose = document.createElement('div');
 
     modalClose.innerText = "❌";
@@ -168,12 +95,12 @@ const displayCart = () => {
 
     //modal Body
     //si el carrito esta vacio
-    if( cart.length > 0) {
+    if (cart.length > 0) {
         //se crea un div por cada producto
-    cart.forEach((producto) => {
-    const modalBody = document.createElement("div");
-    modalBody.className = "modal-body";
-    modalBody.innerHTML = `
+        cart.forEach((producto) => {
+            const modalBody = document.createElement("div");
+            modalBody.className = "modal-body";
+            modalBody.innerHTML = `
         <div class="product">
             <img src="${producto.img}" class="product-img" />
             <div class="product-info">
@@ -189,55 +116,55 @@ const displayCart = () => {
                 <div class="delete-product">❌</div>
         </div>        
     `;
-    //agrergar el body al modalContainer
-    modalContainer.append(modalBody);
-    //console.log(modalBody);
-    //modal body events
-    //decremento la cantidad en el carrito    
-    const decrease = modalBody.querySelector('.quantity-btn-decrease');
-    decrease.addEventListener('click', () => {
-        if(producto.quanty !== 1){
-        producto.quanty --;
-        displayCart();
-        displayCartCounter();
-        }    
-    });
-    //incremento la cantidad en el carrito
-    const increase = modalBody.querySelector('.quantity-btn-increase');
-    increase.addEventListener('click', () => {
-        producto.quanty ++;
-        displayCart();
-        displayCartCounter();
-    });
+            //agrergar el body al modalContainer
+            modalContainer.append(modalBody);
+            //console.log(modalBody);
+            //modal body events
+            //decremento la cantidad en el carrito    
+            const decrease = modalBody.querySelector('.quantity-btn-decrease');
+            decrease.addEventListener('click', () => {
+                if (producto.quanty !== 1) {
+                    producto.quanty--;
+                    displayCart();
+                    displayCartCounter();
+                }
+            });
+            //incremento la cantidad en el carrito
+            const increase = modalBody.querySelector('.quantity-btn-increase');
+            increase.addEventListener('click', () => {
+                producto.quanty++;
+                displayCart();
+                displayCartCounter();
+            });
 
-    //delete producto del carrito
-    const deleteProduct = modalBody.querySelector('.delete-product');
-    deleteProduct.addEventListener('click', () => {
-        deleteCartProduct(producto.id);
-    });
+            //delete producto del carrito
+            const deleteProduct = modalBody.querySelector('.delete-product');
+            deleteProduct.addEventListener('click', () => {
+                deleteCartProduct(producto.id);
+            });
 
-});
+        });
 
 
-    //modal footer
-    //calcula el total de la compra
-    const total = cart.reduce((acc, elemento) => acc + elemento.price * elemento.quanty, 0);
-    const modalFooter = document.createElement('div');
-    modalFooter.className = "modal-footer";
-    modalFooter.innerHTML = `
+        //modal footer
+        //calcula el total de la compra
+        const total = cart.reduce((acc, elemento) => acc + elemento.price * elemento.quanty, 0);
+        const modalFooter = document.createElement('div');
+        modalFooter.className = "modal-footer";
+        modalFooter.innerHTML = `
     <div class="total.price">Total de la compra: $ ${total}</div>
     `;
-    modalContainer.append(modalFooter);
-}else{
-    //si el carrito esta vacio
-    const modalText = document.createElement('h2');
-    modalText.className = "modal-body";
-    modalText.innerText = "No hay productos en el carrito";
-    modalContainer.append(modalText);
-}
+        modalContainer.append(modalFooter);
+    } else {
+        //si el carrito esta vacio
+        const modalText = document.createElement('h2');
+        modalText.className = "modal-body";
+        modalText.innerText = "No hay productos en el carrito";
+        modalContainer.append(modalText);
+    }
 };
 //funcion para eliminar un producto del carrito
-const deleteCartProduct = (id) =>{
+const deleteCartProduct = (id) => {
     //busco el id del producto en el carrito
     const foundId = cart.findIndex((element) => element.id === id);
     //console.log(foundId);
@@ -251,16 +178,19 @@ cartBtn.addEventListener('click', displayCart);
 //funcion para mostrar la cantidad de productos en el carrito
 const displayCartCounter = () => {
     //reduce para sumar la cantidad de productos en el carrito
+
     const cartLength = cart.reduce((acc, elem) => acc + elem.quanty, 0);
+
     //si el carrito tiene productos
-    if(cart.length > 0) {
-        cartCounter.style.display = "block";
+    if (cart.length > 0) {
+        //cartCounter.style.display = "block";
+        cartCounter.style.opacity = 1;
         cartCounter.innerText = cartLength;
-    }else{
+    } else {
         //si el carrito esta vacio
-        cartCounter.style.display = "none";
+        //cartCounter.style.display = "none";
+        cartCounter.style.opacity = 0;
     }
+
+    //localStorage.setItem('cartLength');
 };
-
-
-

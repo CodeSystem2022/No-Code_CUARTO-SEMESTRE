@@ -23,6 +23,16 @@ body {
   flex-direction: column;
   background-color: #000;
 }
+body::-webkit-scrollbar{
+  width: .6rem;
+  background-color: #1a1a1a;
+
+}
+body::-webkit-scrollbar-thumb{
+  background-color: rgb(210, 179, 54);
+  border-radius: 5rem;
+
+}
 
 .cont_body {
   max-width: 1800px;
@@ -144,7 +154,7 @@ header {
 }
 /*Inicia el footer*/
 .footer {
-  display: flex;
+  display: none;
   width: 100%;
   height: 20vh;
   z-index: 15;

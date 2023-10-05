@@ -13,98 +13,11 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  z-index: 1;
+  z-index: -1;
   background-color: rgba(0, 0, 0, 0.6);
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.categorias {
-  width: 100%;
-  height: auto;
-  z-index: 10;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.categoria {
-  width: 15rem;
-  height: 13rem;
-  margin: 1rem;
-  border: #332917 2px solid;
-  box-shadow: #332917 4px 4px 8px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5%;
-  overflow: hidden;
-  cursor: pointer;
-}
-.categoria a{
-  width: 100%;
-  height: 100%;
-}
-
-.categoria:hover {
-  transform: scale(1.03);
-  border: #67532e 2px solid;
-  box-shadow: #67532e 4px 4px 8px;
-  transition: all 0.4s;
-}
-
-.categoria a:hover > .filtro_cate {
-  background-color: rgba(0, 0, 0, 0.2);
-}
-
-.filtro_cate {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-h3 {
-  font-size: 2rem;
-  text-align: center;
-  color: #fff;
-}
-
-.cate_tazas {
-  background: url(./media/menu-categorias/tazas.png) center/ 100% no-repeat;
-}
-
-.cate_remeras {
-  background: url(./media/menu-categorias/remeras.png) center/ 100% no-repeat;
-}
-
-.cate_accesorios {
-  background: url(./media/menu-categorias/Accesorios.png) center/ 100%
-    no-repeat;
-}
-
-.cate_comics {
-  background: url(./media/menu-categorias/comics.png) center/ 100% no-repeat;
-}
-
-.cate_figuras {
-  background: url(./media/menu-categorias/figuras.png) center/ 100% no-repeat;
-}
-
-.cate_mangas {
-  background: url(./media/menu-categorias/mangas.png) center/ 100% no-repeat;
-}
-
-.cate_simpson_mania {
-  background: url(./media/menu-categorias/simpsonMania.png) center/ 100%
-    no-repeat;
-}
-
-.cate_no_def {
-  background: url(./media/menu-categorias/armascoleccion.jpg) center/ 100%
-    no-repeat;
-}
 
