@@ -329,7 +329,7 @@ const productos = [
     {
         id: 41,
         categoria: "simpsons",
-        nombreProducto: "diseño-1",
+        nombreProducto: "Sandor Clegane",
         precio: 3000,
         cantidad: 1,
         img: "./media/productos-imagenes/producto-simpsons-1.png",
@@ -337,7 +337,7 @@ const productos = [
     {
         id: 42,
         categoria: "simpsons",
-        nombreProducto: "diseño-2",
+        nombreProducto: "Jon Snow",
         precio: 3000,
         cantidad: 1,
         img: "./media/productos-imagenes/producto-simpsons-2.png",
@@ -345,7 +345,7 @@ const productos = [
     {
         id: 43,
         categoria: "simpsons",
-        nombreProducto: "diseño-3",
+        nombreProducto: "Daenerys Targaryen",
         precio: 3000,
         cantidad: 1,
         img: "./media/productos-imagenes/producto-simpsons-3.png",
@@ -353,7 +353,7 @@ const productos = [
     {
         id: 44,
         categoria: "simpsons",
-        nombreProducto: "diseño-4",
+        nombreProducto: "Hodor",
         precio: 3000,
         cantidad: 1,
         img: "./media/productos-imagenes/producto-simpsons-4.png",
@@ -361,7 +361,7 @@ const productos = [
     {
         id: 45,
         categoria: "simpsons",
-        nombreProducto: "diseño-5",
+        nombreProducto: "Hector Salamanca",
         precio: 3000,
         cantidad: 1,
         img: "./media/productos-imagenes/producto-simpsons-5.png",
@@ -369,7 +369,7 @@ const productos = [
     {
         id: 46,
         categoria: "simpsons",
-        nombreProducto: "diseño-6",
+        nombreProducto: "The Cousins",
         precio: 3000,
         cantidad: 1,
         img: "./media/productos-imagenes/producto-simpsons-6.png",
@@ -377,7 +377,7 @@ const productos = [
     {
         id: 47,
         categoria: "simpsons",
-        nombreProducto: "diseño-7",
+        nombreProducto: "DEA turtle",
         precio: 3000,
         cantidad: 1,
         img: "./media/productos-imagenes/producto-simpsons-7.png",
@@ -385,7 +385,7 @@ const productos = [
     {
         id: 48,
         categoria: "simpsons",
-        nombreProducto: "diseño-8",
+        nombreProducto: "Walter Jr.",
         precio: 3000,
         cantidad: 1,
         img: "./media/productos-imagenes/producto-simpsons-8.png",
@@ -393,7 +393,7 @@ const productos = [
     {
         id: 49,
         categoria: "simpsons",
-        nombreProducto: "diseño-9",
+        nombreProducto: "Walter White",
         precio: 3000,
         cantidad: 1,
         img: "./media/productos-imagenes/producto-simpsons-9.png",
@@ -401,7 +401,7 @@ const productos = [
     {
         id: 50,
         categoria: "simpsons",
-        nombreProducto: "diseño-10",
+        nombreProducto: "Walter and Jesse",
         precio: 3000,
         cantidad: 1,
         img: "./media/productos-imagenes/producto-simpsons-10.jpg",
