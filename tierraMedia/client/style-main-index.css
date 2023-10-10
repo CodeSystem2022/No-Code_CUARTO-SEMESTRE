@@ -28,4 +28,79 @@
   align-items: center;
 }
 
+/* Estilos para la barra de navegación */
+.navbar {
+  background-color: #51320c;
+  color: #fff;
+  padding-top: 5px 1px;
+  /* padding: 10px 10px 20 px; */
+  display: flex;
+  justify-content: space-around;
+}
+.a-nav{
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.5rem;
+  margin: .5rem 1rem;
+  transition: all .3s;
+}
 
+
+.menu-trigger {
+  /* display: inline-block; */
+  cursor: pointer;
+  /* border: 1px solid #ccc; */
+  padding: 5px;
+  margin-right: 10px;
+  font-size: 1.5rem;  
+}
+
+.menu-list {
+  display: none;
+  list-style: none;
+  padding: 2px;
+  margin-left: 10px;
+  position: absolute;
+  background-color: #51320c;
+  top: 100%;
+  width: 250px;
+  font-size: 1.2rem;
+  z-index: 1;
+  /* border: 1px solid #ccc; */
+
+
+}
+
+.menu-list li {
+  padding: 5px;
+  cursor: pointer;
+  text-align:center;
+  /* border: 1px solid #ccc; */
+  
+}
+
+/* Estilos para resaltar elementos al pasar el cursor */
+.menu-list li:hover {
+  background-color: #f0f0f0;
+  color: #000000;
+}
+
+/* Estilos para el contenido (secciones) */
+#contenido {
+  margin: 20px;
+}
+
+section-1 {
+  display: none;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.menu-seccion{
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu-seccion:hover{
+  color: #000;
+} 

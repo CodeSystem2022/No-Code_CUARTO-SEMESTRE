@@ -41,7 +41,7 @@ const productos = [
     },
     {
         id: 6,
-        categoria: "remeras",
+        categorcomiia: "remeras",
         nombreProducto: "Remera Ctrl",
         precio: 3000,
         cantidad: 1,
@@ -294,8 +294,8 @@ const productos = [
     },
     {
         id: 37,
-        categoria: "Batarang Batman",
-        nombreProducto: "armas",
+        categoria: "armas",
+        nombreProducto: "Batarang Batman",
         precio: 3000,
         cantidad: 1,
         img: "./media/productos-imagenes/producto-arma-7.jpeg",

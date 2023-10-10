@@ -1,3 +1,4 @@
+
 const contenedorMain = document.querySelector(".productos");
 //se crea un array vacio
 const cart = [];
@@ -14,12 +15,11 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-
 function crearProductoHtml(producto) {
     const divContenedorProducto = document.createElement("div");
     //agrego en el boton de compra el id del boton id="btn-compra"
     divContenedorProducto.innerHTML = `
-        <div class="contenedor-producto">
+        <div class="contenedor-producto" id="${producto.categoria}">
             <div class="div-imagen-producto">
                 <img src="${producto.img}" class="img-producto">
             </div>
@@ -194,3 +194,20 @@ const displayCartCounter = () => {
 
     //localStorage.setItem('cartLength');
 };
+
+// Obtener elementos del DOM
+const menuTrigger = document.querySelector('.menu-trigger');
+const menuList = document.querySelector('.menu-list');
+const contenido = document.getElementById('contenido');
+
+// Mostrar la lista al pasar el cursor sobre el menú
+menuTrigger.addEventListener('mouseenter', () => {
+    menuList.style.display = 'block';
+});
+
+// Ocultar la lista al salir del menú
+menuList.addEventListener('mouseleave', () => {
+    menuList.style.display = 'none';
+});
+
+
