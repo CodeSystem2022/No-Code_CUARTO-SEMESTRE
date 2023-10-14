@@ -4,16 +4,25 @@ const contenedorMain = document.querySelector(".productos");
 const cart = [];
 
 document.addEventListener("DOMContentLoaded", function () {
-
-    productos.forEach((producto) => {
-        crearProductoHtml(producto);
-
-    });
-    
-
-
-});
-
+    let productos; // Variable para almacenar los productos en JSON
+  
+    // Realiza una solicitud GET a la URL '/productos' para obtener los datos de productos
+    // de una API rest creada con Node.js y Express
+    fetch('/productos')
+      .then(response => response.json()) // Convierte la respuesta a un objeto JSON
+      .then(data => {
+        productos = data; // Asigna los datos a la variable "productos"
+        console.log('Productos obtenidos correctamente: ', productos);
+  
+        // Itera a través de los productos y llama a la función "crearProductoHtml" 
+        //para crear elementos HTML para mostrar cada producto
+        productos.forEach(producto => {
+          crearProductoHtml(producto);
+        });
+      })
+      // Maneja errores en caso de que la solicitud falle
+      .catch(error => console.error('Error al obtener los productos: ', error)); 
+  });
 
 function crearProductoHtml(producto) {
     const divContenedorProducto = document.createElement("div");
