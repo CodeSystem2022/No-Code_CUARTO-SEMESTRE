@@ -1,4 +1,3 @@
-
 const contenedorMain = document.querySelector(".productos");
 //se crea un array vacio
 const cart = [];
@@ -162,8 +161,70 @@ const displayCart = () => {
         modalFooter.className = "modal-footer";
         modalFooter.innerHTML = `
     <div class="total.price">Total de la compra: $ ${total}</div>
+    <button class="btn-primary" id="checkout-btn">Realizar Compra</button>
+    <div id="button-checkout"></div>
     `;
         modalContainer.append(modalFooter);
+        //MP
+        
+        const mercadopago = new MercadoPago("key mp", {
+            locale: "es-AR", // The most common are 'pt-BR', 'en-US' and 'es-AR'
+        });
+
+        const checkoutButton = modalFooter.querySelector('#checkout-btn');
+
+        checkoutButton.addEventListener('click', function (){
+       
+            checkoutButton.remove();
+     
+             const orderData = {
+                 quantity: 1,
+                 description: 'Compra realizada en Tierra Media',
+                 price: total,
+             };
+     
+             fetch('http://localhost:8080/create_preference', {
+                 method: 'POST',
+                 headers: {
+                     'Content-Type': 'application/json',
+                 },
+                 body: JSON.stringify(orderData),
+             })
+             .then(function (response) {
+                 return response.json();
+             })
+             .then(function (preference) {
+                 createCheckoutButton(preference.id);
+             })
+             .catch(function () {
+                 alert('Unexpected error');
+             });
+         });
+     
+             function createCheckoutButton(preferenceId) {
+                 //Initialice the checkout
+                  const bricksBuilder = mercadopago.bricks();
+     
+                  const renderComponent = async (bricksBuilder) => {
+                     // if (window.checkoutButton) checkoutButton.unmount();
+     
+                     await bricksBuilder.create(
+                         "wallet",
+                         "button-checkout", //class/id where the payment button will be displayed
+                         {
+                             initialization: {
+                                 preferenceId: preferenceId,
+                             },
+                             callbacks: {
+                                 onError: (error) => console.error(error),
+                                 onReady: () => {},
+                             },
+                         } 
+                     );                
+                 };
+                 window.checkoutButton = renderComponent(bricksBuilder);
+             }
+
     } else {
         //si el carrito esta vacio
         const modalText = document.createElement('h2');
