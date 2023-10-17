@@ -39,4 +39,11 @@ Por dificultades que se dieron al crear el carrito de compras, tuvimos que reest
 
 #### Scrum semana 7 *(Ezequiel M)*:<br>
 Esta semana terminamos de trabajar en el carrito y empezamos a trabajar en el Readme final del proyecto y en el guion del video. <br>
+Tambien terminamos la pasarela de pagos y la base de datos.
+<br>
 ![Texto alternativo](media/media-readme/scrum7.png)
+
+<h3 align="left">Lenguajes y herramientas:</h3>
+<p align="left"> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="35" height="35"/> </a> 
+<img src="https://icongr.am/devicon/mysql-original-wordmark.svg?size=128&color=currentColor" width="40" height="40"/>
+</p>
