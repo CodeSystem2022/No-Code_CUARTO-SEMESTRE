@@ -2,11 +2,10 @@
 /*Main*/
 .main {
   width: 100%;
-  height: 93vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*background: url(./media/fondos/fondo.jpeg) center/ 100% no-repeat fixed;*/
 }
 
 .fondo {
@@ -20,7 +19,7 @@
 .filtro_fondo {
   width: 100%;
   height: 100%;
-  position: absolute;
+  position: fixed;
   z-index: -1;
   background-color: rgba(0, 0, 0, 0.6);
   display: flex;
@@ -103,4 +102,41 @@ section-1 {
 
 .menu-seccion:hover{
   color: #000;
-} 
+}
+
+/*Estilo para el formulario de contacto*/
+.form_contacto{
+  width: 60%;
+  height: 20rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color:rgb(89, 55, 13, 0.8);
+  border-radius: 1rem;
+  box-shadow: 3px 3px 5px #2f2f2f;
+  margin-bottom: 2.4rem;
+}
+.form_contacto div{
+  width: 45%;
+}
+.form_contacto p{
+  color:#fff;
+  font-size: 1.2rem;
+  margin: 0.5rem 0 0.5rem 0;
+}
+.form_contacto input{
+  width: 100%;
+  height: 2.2rem;
+  font-size: 1.2rem;
+}
+.boton_envio{
+  margin: 1.5rem 0 1rem 0;
+}
+.form_contacto div textarea{
+  max-width: 100%;
+  width: 100%;
+  height: 22rem;
+  max-height: 15.2rem;
+  font-size: 1.2rem;
+  margin-bottom: 0.7rem;
+}
