@@ -1,6 +1,3 @@
-
-
-/*
 const productos = [
     {
         id: 1,
@@ -650,4 +647,3 @@ const productos = [
         img: "./media/productos-imagenes/producto-manga-10-Rurouni Kenshin_Vol1.jpg",
     },
 ];
-*/
