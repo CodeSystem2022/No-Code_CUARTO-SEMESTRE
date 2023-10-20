@@ -1,30 +1,30 @@
 const contenedorMain = document.querySelector(".productos");
 //se crea un array vacio
 const cart = [];
-  
-  document.addEventListener("DOMContentLoaded", function () {
-   /* let productos; // Variable para almacenar los productos en JSON
-  
-    // Realiza una solicitud GET a la URL '/productos' para obtener los datos de productos
-    // de una API rest creada con Node.js y Express
-    fetch('/productos')
-      .then(response => response.json()) // Convierte la respuesta a un objeto JSON
-      .then(data => {
-        productos = data; // Asigna los datos a la variable "productos"
-        console.log('Productos obtenidos correctamente: ', productos);
-  
-        // Itera a través de los productos y llama a la función "crearProductoHtml" 
-        //para crear elementos HTML para mostrar cada producto
-        productos.forEach(producto => {
-          crearProductoHtml(producto);
-        });
-      })
-      // Maneja errores en caso de que la solicitud falle
-      .catch(error => console.error('Error al obtener los productos: ', error)); */
-      productos.forEach(producto => {
+
+document.addEventListener("DOMContentLoaded", function () {
+    /* let productos; // Variable para almacenar los productos en JSON
+   
+     // Realiza una solicitud GET a la URL '/productos' para obtener los datos de productos
+     // de una API rest creada con Node.js y Express
+     fetch('/productos')
+       .then(response => response.json()) // Convierte la respuesta a un objeto JSON
+       .then(data => {
+         productos = data; // Asigna los datos a la variable "productos"
+         console.log('Productos obtenidos correctamente: ', productos);
+   
+         // Itera a través de los productos y llama a la función "crearProductoHtml" 
+         //para crear elementos HTML para mostrar cada producto
+         productos.forEach(producto => {
+           crearProductoHtml(producto);
+         });
+       })
+       // Maneja errores en caso de que la solicitud falle
+       .catch(error => console.error('Error al obtener los productos: ', error)); */
+    productos.forEach(producto => {
         crearProductoHtml(producto);
-      });
-  });
+    });
+});
 
 function crearProductoHtml(producto) {
     const divContenedorProducto = document.createElement("div");
@@ -169,64 +169,64 @@ const displayCart = () => {
     `;
         modalContainer.append(modalFooter);
         //MP
-        
+
         const mercadopago = new MercadoPago("key mp", {
             locale: "es-AR", // The most common are 'pt-BR', 'en-US' and 'es-AR'
         });
 
         const checkoutButton = modalFooter.querySelector('#checkout-btn');
 
-        checkoutButton.addEventListener('click', function (){
-       
+        checkoutButton.addEventListener('click', function () {
+
             checkoutButton.remove();
-     
-             const orderData = {
-                 quantity: 1,
-                 description: 'Compra realizada en Tierra Media',
-                 price: total,
-             };
-     
-             fetch('http://localhost:8080/create_preference', {
-                 method: 'POST',
-                 headers: {
-                     'Content-Type': 'application/json',
-                 },
-                 body: JSON.stringify(orderData),
-             })
-             .then(function (response) {
-                 return response.json();
-             })
-             .then(function (preference) {
-                 createCheckoutButton(preference.id);
-             })
-             .catch(function () {
-                 alert('Unexpected error');
-             });
-         });
-     
-             function createCheckoutButton(preferenceId) {
-                 //Initialice the checkout
-                  const bricksBuilder = mercadopago.bricks();
-     
-                  const renderComponent = async (bricksBuilder) => {
-                     // if (window.checkoutButton) checkoutButton.unmount();
-     
-                     await bricksBuilder.create(
-                         "wallet",
-                         "button-checkout", //class/id where the payment button will be displayed
-                         {
-                             initialization: {
-                                 preferenceId: preferenceId,
-                             },
-                             callbacks: {
-                                 onError: (error) => console.error(error),
-                                 onReady: () => {},
-                             },
-                         } 
-                     );                
-                 };
-                 window.checkoutButton = renderComponent(bricksBuilder);
-             }
+
+            const orderData = {
+                quantity: 1,
+                description: 'Compra realizada en Tierra Media',
+                price: total,
+            };
+
+            fetch('http://localhost:8080/create_preference', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(orderData),
+            })
+                .then(function (response) {
+                    return response.json();
+                })
+                .then(function (preference) {
+                    createCheckoutButton(preference.id);
+                })
+                .catch(function () {
+                    alert('Unexpected error');
+                });
+        });
+
+        function createCheckoutButton(preferenceId) {
+            //Initialice the checkout
+            const bricksBuilder = mercadopago.bricks();
+
+            const renderComponent = async (bricksBuilder) => {
+                // if (window.checkoutButton) checkoutButton.unmount();
+
+                await bricksBuilder.create(
+                    "wallet",
+                    "button-checkout", //class/id where the payment button will be displayed
+                    {
+                        initialization: {
+                            preferenceId: preferenceId,
+                        },
+                        callbacks: {
+                            onError: (error) => console.error(error),
+                            onReady: () => { },
+                        },
+                    }
+                );
+            };
+            window.checkoutButton = renderComponent(bricksBuilder);
+        }
 
     } else {
         //si el carrito esta vacio
@@ -268,19 +268,25 @@ const displayCartCounter = () => {
     //localStorage.setItem('cartLength');
 };
 
-// Obtener elementos del DOM
-const menuTrigger = document.querySelector('.menu-trigger');
-const menuList = document.querySelector('.menu-list');
-const contenido = document.getElementById('contenido');
+const menuDespegableUl = document.querySelector(".ul_desplegable_nav")
+var abrirMenuDesplegable = false;
 
-// Mostrar la lista al pasar el cursor sobre el menú
-menuTrigger.addEventListener('mouseenter', () => {
-    menuList.style.display = 'block';
-});
+function desplegarMenu() { 
+    if(abrirMenuDesplegable === true){
+        abrirMenuDesplegable = false
+        if (window.innerWidth <= 999) {
+            menuDespegableUl.style.display = 'none';
+        }
+    }else if (abrirMenuDesplegable === false) {
+        abrirMenuDesplegable = true;
+        if (window.innerWidth <= 999) {
+            menuDespegableUl.style.display = 'flex';
+            menuDespegableUl.style.transform = 'translateY(0)';
+            menuDespegableUl.style.top = '9rem';
+            menuDespegableUl.style.opacity = '1';
+            menuDespegableUl.style.marginLeft = '5rem';
+        }
+    }
+   
 
-// Ocultar la lista al salir del menú
-menuList.addEventListener('mouseleave', () => {
-    menuList.style.display = 'none';
-});
-
-
+}

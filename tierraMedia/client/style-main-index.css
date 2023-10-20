@@ -28,88 +28,15 @@
 }
 
 /* Estilos para la barra de navegación */
-.navbar {
-  background-color: #51320c;
-  color: #fff;
-  padding-top: 5px 1px;
-  /* padding: 10px 10px 20 px; */
-  display: flex;
-  justify-content: space-around;
-}
-.a-nav{
-  text-decoration: none;
-  color: #fff;
-  font-size: 1.5rem;
-  margin: .5rem 1rem;
-  transition: all .3s;
-}
 
-
-.menu-trigger {
-  /* display: inline-block; */
-  cursor: pointer;
-  /* border: 1px solid #ccc; */
-  padding: 5px;
-  margin-right: 10px;
-  font-size: 1.5rem;  
-}
-
-.menu-list {
-  display: none;
-  list-style: none;
-  padding: 2px;
-  margin-left: 10px;
-  position: absolute;
-  background-color: #51320c;
-  top: 100%;
-  width: 250px;
-  font-size: 1.2rem;
-  z-index: 1;
-  /* border: 1px solid #ccc; */
-
-
-}
-
-.menu-list li {
-  padding: 5px;
-  cursor: pointer;
-  text-align:center;
-  /* border: 1px solid #ccc; */
-  
-}
-
-/* Estilos para resaltar elementos al pasar el cursor */
-.menu-list li:hover {
-  background-color: #f0f0f0;
-  color: #000000;
-}
-
-/* Estilos para el contenido (secciones) */
-#contenido {
-  margin: 20px;
-}
-
-section-1 {
-  display: none;
-  border: 1px solid #ccc;
-  padding: 10px;
-}
-
-.menu-seccion{
-  text-decoration: none;
-  color: #fff;
-}
-
-.menu-seccion:hover{
-  color: #000;
-}
 
 /*Estilo para el formulario de contacto*/
 .form_contacto{
-  width: 60%;
-  height: 20rem;
+  width: 50rem;
+  height: auto;
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   background-color:rgb(89, 55, 13, 0.8);
   border-radius: 1rem;
@@ -118,25 +45,130 @@ section-1 {
 }
 .form_contacto div{
   width: 45%;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem;
+
 }
-.form_contacto p{
+.form_contacto label{
   color:#fff;
   font-size: 1.2rem;
   margin: 0.5rem 0 0.5rem 0;
 }
-.form_contacto input{
+.form_contacto label input{
   width: 100%;
   height: 2.2rem;
   font-size: 1.2rem;
+  width: 20rem;
 }
 .boton_envio{
   margin: 1.5rem 0 1rem 0;
+  width: 20rem;
+  height: 2rem;
+  border-radius: .4rem;
+  font-size: 1rem;
+  border:none;
+  box-shadow: 3px 3px 5px #2f2f2f;
+
 }
-.form_contacto div textarea{
+.form_contacto .mensaje_form{
+  display: flex;
   max-width: 100%;
-  width: 100%;
+  width: 20rem;
   height: 22rem;
   max-height: 15.2rem;
   font-size: 1.2rem;
   margin-bottom: 0.7rem;
+  padding: 1rem;
+}
+@media only screen and (max-width: 999px) {
+  .form_contacto{
+    max-width: 20rem;
+    overflow: hidden;
+    align-self: center;
+    justify-content: center;
+  }
+  .form_contacto div{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contacto label{
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+  }
+  .form_contacto label input{
+    width: 100%;
+  }
+  .boton_envio{
+    width: 10rem;
+  }
+}
+section{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+.tarjetas_nosotros{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.tarjeta_integrante{
+  margin: 2rem;
+  user-select: none;
+  background-color: #ececec;
+  border-radius: .8rem;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding: .3rem;
+  width: 14rem;
+  box-shadow: 3px 3px 5px #2f2f2f;
+}
+.imagen_integrante{
+  display: flex;
+  width: 100%;
+  height: 15rem;
+  justify-content: center;
+  border-radius: .8rem;
+  overflow: hidden;
+}
+.imagen_integrante img{
+  width: 100%;
+  height: auto;
+}
+.nombre_icono_integrante{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 3rem;
+  padding: 1rem;
+}
+.nombre_integrante{
+  font-size: 1.3rem;
+}
+.icono_integrante{
+  background-color: #fff;
+  font-size: 1.5rem;
+  border-radius: 100rem;
+  padding: .3rem;
+  width: 2rem;
+  height: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 2px 3px 3px #2f2f2f;
+  cursor: pointer;
+}
+section h3{
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+  color: rgb(210, 179, 54);
 }

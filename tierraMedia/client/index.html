@@ -10,13 +10,13 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="./style-productos.css">
   <link rel="stylesheet" href="./style-cart.css">
-  <link rel="stylesheet" href="base.css">
+  <link rel="stylesheet" href="./base.css">
   <!-- <link rel="stylesheet" href="style-nosotros.css"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Macondo&display=swap" rel="stylesheet">
   <script src="https://sdk.mercadopago.com/js/v2"></script>
-  </head>
+</head>
 
 <body>
   <div class="cont_body">
@@ -29,7 +29,7 @@
           <span class="cart-counter" id="cart-counter">0</span>
           <!--Agrego el id="cart-btnn"-->
           <div class="btn_header carrito" id="cart-btn">
-            
+
             <i class="bi bi-cart3"></i>
           </div>
 
@@ -37,23 +37,25 @@
 
       </div>
 
-      <nav class="navbar">
-        <a class="a-nav" href="nosotros-productos.html">Nosotros</a>
-        <div class="menu-trigger">
-            <span>Secciones</span>
-        </div>
-        <ul class="menu-list">
-            <li><a class="menu-seccion" href="#remeras">Remeras Programación</li></a>
-            <li><a class="menu-seccion" href="#comics">Comics</li></a>
-            <li><a class="menu-seccion"  href="#figuras">Figuras</li></a>
-            <li><a class="menu-seccion"  href="#armas">Armas</li></a>
-            <li><a class="menu-seccion"  href="#simpsons">Remeras Simpsons</li></a>
-            <li><a class="menu-seccion"  href="#tazas">Tazas</li></a>
-            <li><a class="menu-seccion"  href="#accesorios">Llaveros y Gorras</li></a>
-            <li><a class="menu-seccion"  href="#mangas">Manga</li></a>
+      <nav class="nav">
+        <ul class="ul_nav">
+          <li class="li_ul_nav menu_desplegable" onclick="desplegarMenu()">Productos ▾
+            <ul class="ul_desplegable_nav">
+              <li class="li_menu_desplegable"><a class="menu-seccion" href="#remeras">Remeras Programación</a></li>
+              <li class="li_menu_desplegable"><a class="menu-seccion" href="#comics">Comics</a></li>
+              <li class="li_menu_desplegable"><a class="menu-seccion" href="#figuras">Figuras</a></li>
+              <li class="li_menu_desplegable"><a class="menu-seccion" href="#armas">Armas</a></li>
+              <li class="li_menu_desplegable"><a class="menu-seccion" href="#simpsons">Remeras Simpsons</a></li>
+              <li class="li_menu_desplegable"><a class="menu-seccion" href="#tazas">Tazas</a></li>
+              <li class="li_menu_desplegable"><a class="menu-seccion" href="#accesorios">Llaveros y Gorras</a></li>
+              <li class="li_menu_desplegable"><a class="menu-seccion" href="#mangas">Manga</a></li>
+              
+            </ul>
+          </li>
+          <li class="li_ul_nav"><a href="#contacto">Contacto</a></li>
+          <li class="li_ul_nav"><a href="#nosotros">Nosotros</a></li>
         </ul>
-        <a class="a-nav" href="#contacto">Contacto</a>
-    </nav>
+      </nav>
 
     </header>
 
@@ -68,25 +70,115 @@
 
       <article>
         <section>
+          <h3>Productos</h3>
           <div class="productos" id="shopContent"></div>
+        </section>
+        <section>
+          <h3 id="contacto">Contacto</h3>
+          <form action="https://formsubmit.co/mpierna3@gmail.com" class="form_contacto" method="POST">
+            <div>
+              <label>Nombre:
+                <input type="text" name="name" required>
+              </Label>
+
+              <label>Email:
+                <input type="email" name="email" required>
+              </label>
+              <label for="">Télefono:
+                <input type="text" name="phone" required>
+              </label> 
+            </div>
+            <div>
+              <label>Déjanos un mensaje:
+                <input class="mensaje_form" name="text" type="text"></input>
+              </label>
+            </div>
+            <button type="submit" class="boton_envio">Enviar</button>
+          </form>
+        </section>
+        <section id="nosotros">
+          <h3>Grupo NoCode</h3>
+          <div class="tarjetas_nosotros">
+            <div class="tarjeta_integrante">
+              <div class="imagen_integrante">
+                <img src="media/categoria-nosotros/Abel.png" alt="Abel P.">
+              </div>
+              <div class="nombre_icono_integrante">
+                <h4 class="nombre_integrante">Abel P.</h4>
+                <a href="https://github.com/Abelino537" target="_blank"><i class="bi bi-github icono_integrante"></i></a>
+              </div>
+            </div>
+            <div class="tarjeta_integrante">
+              <div class="imagen_integrante">
+                <img src="media/categoria-nosotros/Andres.png" alt="Andres W.">
+              </div>
+              <div class="nombre_icono_integrante">
+                <h4 class="nombre_integrante">Andres W.</h4>
+                <a href="https://github.com/andreswinck#-andrés-winckler" target="_blank"><i class="bi bi-github icono_integrante"></i></a>
+              </div>
+            </div>
+            <div class="tarjeta_integrante">
+              <div class="imagen_integrante">
+                <img src="media/categoria-nosotros/dante.png" alt="Dante M.">
+              </div>
+              <div class="nombre_icono_integrante">
+                <h4 class="nombre_integrante">Dante M.</h4>
+                <a href="https://github.com/mzadante" target="_blank"><i class="bi bi-github icono_integrante"></i></a>
+              </div>
+            </div>
+            <div class="tarjeta_integrante">
+              <div class="imagen_integrante">
+                <img src="media/categoria-nosotros/dario.png" alt="Dario C.">
+              </div>
+              <div class="nombre_icono_integrante">
+                <h4 class="nombre_integrante">Darío C.</h4>
+                <a href="https://github.com/dwc1970" target="_blank"><i class="bi bi-github icono_integrante"></i></a>
+              </div>
+            </div>
+            <div class="tarjeta_integrante">
+              <div class="imagen_integrante">
+                <img src="media/categoria-nosotros/Ezequiel.png" alt="Ezequiel M.">
+              </div>
+              <div class="nombre_icono_integrante">
+                <h4 class="nombre_integrante">Ezequiel M.</h4>
+                <a href="https://github.com/ezequielmariscal" target="_blank"><i class="bi bi-github icono_integrante"></i></a>
+              </div>
+            </div>
+            <div class="tarjeta_integrante">
+              <div class="imagen_integrante">
+                <img src="media/categoria-nosotros/Franco.png" alt="Franco L.">
+              </div>
+              <div class="nombre_icono_integrante">
+                <h4 class="nombre_integrante">Franco L.</h4>
+                <a href="https://github.com/Chorifrann" target="_blank"><i class="bi bi-github icono_integrante"></i></a>
+              </div>
+            </div>
+            <div class="tarjeta_integrante">
+              <div class="imagen_integrante">
+                <img src="media/categoria-nosotros/Jeremias.png" alt="Jeremías R.">
+              </div>
+              <div class="nombre_icono_integrante">
+                <h4 class="nombre_integrante">Jeremías R.</h4>
+                <a href="https://github.com/JereRiquero" target="_blank"><i class="bi bi-github icono_integrante"></i></a>
+              </div>
+            </div>
+            <div class="tarjeta_integrante">
+              <div class="imagen_integrante">
+                <img src="media/categoria-nosotros/Lucas.png" alt="Lucas S.">
+              </div>
+              <div class="nombre_icono_integrante">
+                <h4 class="nombre_integrante">Lucas S.</h4>
+                <a href="https://github.com/LucasSalinas" target="_blank"><i class="bi bi-github icono_integrante"></i></a>
+              </div>
+            </div>
+          </div>
+
+
         </section>
       </article>
 
-      <form action="" class="form_contacto" id="contacto">
-        <div>
-          <p>Nombre:</p>
-          <input type="text">
-          <p>Email:</p>
-          <input type="email">
-          <p>Télefono:</p>
-          <input type="text">
-          <input type="submit" class="boton_envio">
-        </div>
-        <div>
-          <p>Déjanos un mensaje:</p>
-          <textarea name="" id="" cols="0" rows="10"></textarea>
-        </div>
-      </form>
+
+
 
     </main>
 
