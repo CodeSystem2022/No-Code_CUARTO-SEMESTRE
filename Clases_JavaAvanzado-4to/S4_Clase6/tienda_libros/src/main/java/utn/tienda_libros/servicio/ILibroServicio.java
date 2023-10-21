@@ -13,4 +13,8 @@ public interface ILibroServicio {
     public void guardarLibro(Libro libro);
 
     public void eliminarLibro(Libro libro);
+
+
+
+
 }
