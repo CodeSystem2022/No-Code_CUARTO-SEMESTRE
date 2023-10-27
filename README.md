@@ -59,6 +59,6 @@ Recuerda que la clave para un buen trabajo en equipo es la comunicación. Si tie
 - Semana del 29 de Septiembre al 5 de Octubre: Ezequiel Mariscal
 - Semana del 6 de Octubre al 12 de Octubre: Andres Winckler
 - Semana del 16 al 23 de Octubre: Dante N Martinez
-- Semana del 23 de octubre al 30 de Octubre: Jeremias Riquero
-- Semana del 30 de Octubre al 6 de noviembre: Dario Carrizo
+- Semana del 23 de octubre al 30 de Octubre: Dario Carrizo
+- Semana del 30 de Octubre al 6 de noviembre: Jeremias Riquero
 - Semana del 6 de Noviembre al 12 de Noviembre: Abel Pierna
