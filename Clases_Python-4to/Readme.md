@@ -15,3 +15,34 @@ Clase 2
 
 Sistemas de numeración Binaria Octal y Hexadecimal, además de manejo de infinito positivo y negativo con float.
 
+Clase 3
+
+Clase 3 Profundizando con Sistemas Numéricos y String
+
+Clase 4 
+
+Evaluación de diseño web
+
+Clase 5
+
+Profundizando en String
+
+Clase 6 
+
+Profundizando en String -> Parte 2
+
+Clase 7
+
+Proyecto en Python
+
+Clase 8
+
+Python en Entorno Profesional
+
+Clase 9
+
+Python en Entorno Profesional -> Parte 2
+ 
+
+
+
