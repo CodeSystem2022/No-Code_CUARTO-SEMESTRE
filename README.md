@@ -21,7 +21,8 @@ Recuerda que la clave para un buen trabajo en equipo es la comunicación. Si tie
 [Mi Linkedin](https://www.linkedin.com/in/abel-pierna-077866220/) <br> <br> </kbd>
 - 🖱️: Lucas Salinas
 - 🖱️: Jeremias Riquero
-- 🖱️: ezequiel Mariscal 
+- 🖱️: **_Ezequiel Mariscal_**  <kbd> <br> [Mi Repositorio de Github](https://github.com/ezequielmariscal) <br> <br> </kbd>  <kbd> <br>
+[Mi Linkedin](https://www.linkedin.com/in/ezequielmariscal/) <br> <br> </kbd>
 - 🖱️: Franco Lara
   <br>
   <br>
