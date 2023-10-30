@@ -17,7 +17,8 @@ Recuerda que la clave para un buen trabajo en equipo es la comunicación. Si tie
 - 🖱️: Dario Walter Carrizo
 - 🖱️: **_Andrés A. Winckler_**  <kbd> <br> [Mi Repositorio de Github](https://github.com/andreswinck) <br> <br> </kbd>  <kbd> <br>
 [Mi Linkedin](https://www.linkedin.com/in/andreswinckler/) <br> <br> </kbd>
-- 🖱️: Abel Pierna
+- 🖱️: **_Abel Pierna_**   <kbd> <br> [Mi Repositorio de Github](https://github.com/Abelino537) <br> <br> </kbd>  <kbd> <br>
+[Mi Linkedin](https://www.linkedin.com/in/abel-pierna-077866220/) <br> <br> </kbd>
 - 🖱️: Lucas Salinas
 - 🖱️: Jeremias Riquero
 - 🖱️: ezequiel Mariscal 
