@@ -1,5 +1,15 @@
-Repositorio JavaScript 4to Semestre
-Se carga la primer clase de javascript con en comienzo del proyecto "e-comerce" 
-Se carga la 2da leccion de JS siguiendo con la creación del CARRITO DE COMPRAS para el e-commerce.
-Se carga la 3ra leccion de JS con la creacion de "model-body, model-footer" y sus respectivas funciones en el carrito.
+
+<div align="center">
+<H1>Javascript  4to Semestre</H1>
+</div>
+
+![Logo JS](https://github.com/ezequielmariscal/AlmacenamientoImg/blob/main/14%20-%20Logo%20JS.png)
+
+- ## 1er Lección
+   Se comienza con el proyecto e-commerce
+- ## 2da Lección
+  Creación del carrito de compras en e-commerce
+- ## 3ra Lección
+  Creación de "model-body, model-footer" y sus respectivas funciones en el carrito.
+
 
