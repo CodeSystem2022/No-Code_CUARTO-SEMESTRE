@@ -1,6 +1,6 @@
 # Proyecto E-Commerce Tierra media *(Grupo: NoCode)*
 ## Brief del proyecto:
-Click en **[Brief](./Brief.pdf)** para verlo.<br>
+Click en **[Brief](./client/media/Brief.pdf)** para verlo.<br>
 Lo que trabajamos en el proyecto integrador de este año es un E-commerce orientando al mundo geek, en el abran diferentes categorías con diferentes productos.<br>
 ##Trabajo realizado a lo largo de las semanas:
 
