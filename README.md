@@ -19,7 +19,8 @@ Recuerda que la clave para un buen trabajo en equipo es la comunicación. Si tie
 [Mi Linkedin](https://www.linkedin.com/in/andreswinckler/) <br> <br> </kbd>
 - 🖱️: **_Abel Pierna_**   <kbd> <br> [Mi Repositorio de Github](https://github.com/Abelino537) <br> <br> </kbd>  <kbd> <br>
 [Mi Linkedin](https://www.linkedin.com/in/abel-pierna-077866220/) <br> <br> </kbd>
-- 🖱️: Lucas Salinas
+- 🖱️: **_Lucas Salinas_**   kbd> <br> [Mi Repositorio de Github](https://github.com/LucasSalinas) <br> <br> </kbd>  <kbd> <br>
+[Mi Linkedin](https://www.linkedin.com/in/lucas-salinas-294523262/) <br> <br> </kbd>
 - 🖱️: Jeremias Riquero
 - 🖱️: **_Ezequiel Mariscal_**  <kbd> <br> [Mi Repositorio de Github](https://github.com/ezequielmariscal) <br> <br> </kbd>  <kbd> <br>
 [Mi Linkedin](https://www.linkedin.com/in/ezequielmariscal/) <br> <br> </kbd>
