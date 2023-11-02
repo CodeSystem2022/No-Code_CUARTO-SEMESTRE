@@ -35,6 +35,6 @@ Las imágenes de los productos son copia ya que este e-comerce es de uso escolar
 
 ## Equipo NoCode
 
-En nombre del grupo NoCodee, nos enorgullece haber completado esta etapa de creación de nuestro e-commerce. Este proyecto nos ha brindado una valiosa experiencia en el desarrollo web, la gestión de bases de datos y la seguridad en línea. Estamos emocionados de presentar esta plataforma a la Tecnicatura en Programación de la UTN FSR, y esperamos que disfruten de su experiencia de compra en nuestra tienda en línea
+En nombre del grupo NoCode, nos enorgullece haber completado esta etapa de creación de nuestro e-commerce. Este proyecto nos ha brindado una valiosa experiencia en el desarrollo web, la gestión de bases de datos y la seguridad en línea. Estamos emocionados de presentar esta plataforma a la Tecnicatura en Programación de la UTN FSR, y esperamos que disfruten de su experiencia de compra en nuestra tienda en línea
 
 ¡Gracias por considerar nuestra aplicación!
