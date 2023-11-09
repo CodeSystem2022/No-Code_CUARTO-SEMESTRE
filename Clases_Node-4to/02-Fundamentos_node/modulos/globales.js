@@ -1,42 +1,39 @@
-//this === global = true
+//thins === global = true
 
 //Mostrar algo en consola
-//console.log();
-//mostrar un error en consola
-//console.error();
-//Ejecutar un código después de un intervalo
-//setTimeout(() => {  });
+console.log();
 
-//Ejecutar un código cada cierto intervalo
-//setInterval(() => {  });
+//Mostrar un mensaje en forma de error
+console.error();
 
-//Da prioridad de ejecución a una función asincronica
-//setImmediate(() => {  });
+//Ejecutar un codigo despues de un intervalo de tiempo
+setTimeout(() => {});
 
-//console.log(setInterval);
-//console.log(setImmediate);
+//Ejecutar un codigo cada intervalo de tiempo
+setInterval(() => {});
+
+//Da prioridad de ejecucion a una funcion asincronica
+setImmediate(() => {});
+
+console.log(setInterval);
 
 let i = 0;
-let intervalo = setInterval(() => {
+let intervalo = setInterval(()=> {
     console.log('Hola');
-    if (i === 3) {
-        clearInterval(intervalo); //detenemos la función
+    if (i === 3){
+        clearInterval(intervalo); //detenemos la funcion
     }
     i++;
-}, 1000);
+     }, 1000);
 
-setImmediate(() => {
-    console.log('Saludo inmediato');
-});
+     setImmediate(() => {
+        console.log('Saludo Inmediato');
+     });
 
-console.log(process); //nos muestra información del proceso
-//directorio
-console.log(__dirname);
-//archivo
-console.log(__filename);
+     require();
 
-globalThis.miVariable = 'mi variable global';
-console.log(miVariable);
+     console.log(_filename);
 
-
+     globalThis.miVariable = 'mi variable global';
+     console.log(miVariable);
 
